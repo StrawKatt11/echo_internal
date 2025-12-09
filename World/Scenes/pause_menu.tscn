@@ -1,0 +1,145 @@
+[gd_scene load_steps=11 format=3 uid="uid://boqtkaekub8il"]
+
+[ext_resource type="Script" uid="uid://bysmrri8143vk" path="res://World/Scripts/pause.gd" id="1_xsh2n"]
+[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="2_h5j7p"]
+[ext_resource type="Shader" uid="uid://nxfo2fuaai0m" path="res://World/Scenes/blur.gdshader" id="2_jbeco"]
+[ext_resource type="Texture2D" uid="uid://17du1ldgju08" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Highlighted.png" id="3_jbeco"]
+[ext_resource type="Texture2D" uid="uid://bx53hj11ijlmv" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Pressed.png" id="4_iko5x"]
+[ext_resource type="Texture2D" uid="uid://ckrnbahbcdy10" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Unpressed.png" id="5_ss1ko"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_iko5x"]
+shader = ExtResource("2_jbeco")
+shader_parameter/blur = 2.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ptwys"]
+texture = ExtResource("3_jbeco")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_t0q1m"]
+texture = ExtResource("4_iko5x")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_j0n5b"]
+texture = ExtResource("5_ss1ko")
+
+[node name="Pause Menu" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xsh2n")
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+material = SubResource("ShaderMaterial_iko5x")
+layout_mode = 0
+offset_right = 1056.0
+offset_bottom = 548.0
+
+[node name="Resume" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -283.0
+offset_top = -137.0
+offset_right = -33.0
+offset_bottom = -62.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_h5j7p")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/hover = SubResource("StyleBoxTexture_ptwys")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_t0q1m")
+theme_override_styles/normal = SubResource("StyleBoxTexture_j0n5b")
+text = "Resume"
+
+[node name="Restart" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 20.0
+offset_top = -136.0
+offset_right = 270.0
+offset_bottom = -61.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_h5j7p")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/hover = SubResource("StyleBoxTexture_ptwys")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_t0q1m")
+theme_override_styles/normal = SubResource("StyleBoxTexture_j0n5b")
+text = "Restart"
+
+[node name="Options" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -284.0
+offset_top = -47.0
+offset_right = -34.0
+offset_bottom = 28.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_h5j7p")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/hover = SubResource("StyleBoxTexture_ptwys")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_t0q1m")
+theme_override_styles/normal = SubResource("StyleBoxTexture_j0n5b")
+text = "Options
+"
+
+[node name="Main menu" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 19.0
+offset_top = -50.0
+offset_right = 269.0
+offset_bottom = 25.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_h5j7p")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/hover = SubResource("StyleBoxTexture_ptwys")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_t0q1m")
+theme_override_styles/normal = SubResource("StyleBoxTexture_j0n5b")
+text = "Main menu
+"
+
+[node name="Quit" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -131.0
+offset_top = 44.0
+offset_right = 119.0
+offset_bottom = 119.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_h5j7p")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/hover = SubResource("StyleBoxTexture_ptwys")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_t0q1m")
+theme_override_styles/normal = SubResource("StyleBoxTexture_j0n5b")
+text = "Quit"
+
+[connection signal="pressed" from="Control/Resume" to="Control" method="_on_resume_pressed"]
+[connection signal="pressed" from="Control/Restart" to="Control" method="_on_restart_pressed"]
+[connection signal="pressed" from="Control/Main menu" to="Control" method="_on_main_menu_pressed"]
+[connection signal="pressed" from="Control/Quit" to="Control" method="_on_quit_pressed"]

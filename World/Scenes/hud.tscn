@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bw5v341uyku16"]
+
+[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="1_e0onf"]
+[ext_resource type="PackedScene" uid="uid://cgtc3s18as54p" path="res://World/Scenes/stopwatch.tscn" id="1_niuxk"]
+
+[sub_resource type="Theme" id="Theme_fccik"]
+default_font = ExtResource("1_e0onf")
+
+[node name="Hud" type="CanvasLayer"]
+
+[node name="Stopwatch" parent="." instance=ExtResource("1_niuxk")]
+position = Vector2(425, -1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 965.0
+offset_right = 1055.0
+offset_bottom = 21.0
+theme = SubResource("Theme_fccik")
+text = "Test map"
