@@ -1,8 +1,8 @@
 [gd_scene load_steps=11 format=3 uid="uid://boqtkaekub8il"]
 
-[ext_resource type="Script" uid="uid://bysmrri8143vk" path="res://World/Scripts/pause.gd" id="1_xsh2n"]
+[ext_resource type="Script" uid="uid://bysmrri8143vk" path="res://World/Scripts/pause.gd" id="1_h5j7p"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="2_h5j7p"]
-[ext_resource type="Shader" uid="uid://nxfo2fuaai0m" path="res://World/Scenes/blur.gdshader" id="2_jbeco"]
+[ext_resource type="Shader" uid="uid://nxfo2fuaai0m" path="res://World/Shaders/blur.gdshader" id="2_jbeco"]
 [ext_resource type="Texture2D" uid="uid://17du1ldgju08" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Highlighted.png" id="3_jbeco"]
 [ext_resource type="Texture2D" uid="uid://bx53hj11ijlmv" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Pressed.png" id="4_iko5x"]
 [ext_resource type="Texture2D" uid="uid://ckrnbahbcdy10" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Unpressed.png" id="5_ss1ko"]
@@ -29,7 +29,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_xsh2n")
+script = ExtResource("1_h5j7p")
 
 [node name="ColorRect" type="ColorRect" parent="Control"]
 material = SubResource("ShaderMaterial_iko5x")

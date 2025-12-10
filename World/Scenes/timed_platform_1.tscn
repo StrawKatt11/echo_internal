@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://g4qy178lttkf"]
 
-[ext_resource type="Script" uid="uid://d3dvko5otr02v" path="res://World/Scripts/timed.gd" id="1_etlk7"]
+[ext_resource type="Script" uid="uid://d3dvko5otr02v" path="res://World/Bence_Folder/Scripts/timed.gd" id="1_etlk7"]
 [ext_resource type="Texture2D" uid="uid://dr4bdq25jhbba" path="res://Assets/Tileset/Sprites/Tilesets/Construction.png" id="2_punqq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_acitq"]

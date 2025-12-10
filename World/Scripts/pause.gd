@@ -1,8 +1,5 @@
 extends Control
 
-var quit_button = false
-var main_button = false
-
 var paused = true
 
 func _ready():

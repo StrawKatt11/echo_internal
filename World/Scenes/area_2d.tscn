@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://cqutg01r6gafn"]
+[gd_scene load_steps=3 format=3 uid="uid://d0jo1rhyduvyo"]
 
-[ext_resource type="Script" uid="uid://dym6s406vlfra" path="res://World/Scripts/respawn.gd" id="1_81842"]
+[ext_resource type="Script" uid="uid://dym6s406vlfra" path="res://World/Bence_Folder/Scripts/respawn.gd" id="1_81842"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_jb3vm"]
 

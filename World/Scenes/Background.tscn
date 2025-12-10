@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dg5uf8nige5bo" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsMid.png" id="4_v1p2m"]
 [ext_resource type="Texture2D" uid="uid://bwgq8po3dqgv5" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsClose.png" id="5_oukyj"]
 
-[node name="Parallax" type="Node2D"]
+[node name="Background" type="Node2D"]
 position = Vector2(101, 445)
 
 [node name="City" type="Node2D" parent="."]
