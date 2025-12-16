@@ -13,8 +13,8 @@
 [ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="11_l8qeq"]
 [ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="12_rvtoe"]
 [ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="13_x1ljd"]
-[ext_resource type="PackedScene" uid="uid://bitv07il5yx3i" path="res://World/Scenes/infinite_platform.tscn" id="14_w6hnc"]
 [ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="14_wh83b"]
+[ext_resource type="Script" uid="uid://cgjgwl705e1vi" path="res://Entity/Scripts/auto run.gd" id="15_w6hnc"]
 [ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/area_2d.tscn" id="17_rgs6y"]
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/hud.tscn" id="18_mfbgy"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="19_q17hi"]
@@ -1105,13 +1105,12 @@ position = Vector2(-11, 52)
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_ck2vj")
 format = 2
+layer_0/tile_data = PackedInt32Array(65530, 196615, 1, 65531, 262151, 1, 65532, 262151, 1, 65533, 262151, 1, 65534, 262151, 1, 65535, 262151, 1, 0, 262151, 1, 1, 262151, 1, 2, 262151, 1, 3, 262151, 1, 4, 262151, 1, 5, 262151, 1, 6, 262151, 1, 7, 262151, 1, 8, 327687, 1, 9, 262151, 1, 10, 262151, 1, 11, 262151, 1, 12, 262151, 1, 13, 262151, 1, 14, 262151, 1, 15, 262151, 1, 16, 262151, 1, 17, 262151, 1, 18, 262151, 1, 19, 262151, 1, 20, 262151, 1, 21, 262151, 1, 22, 262151, 1, 23, 262151, 1, 24, 262151, 1, 25, 262151, 1, 26, 262151, 1, 27, 262151, 1, 28, 262151, 1, 29, 262151, 1, 30, 262151, 1, 31, 262151, 1, 32, 262151, 1, 33, 262151, 1, 34, 262151, 1, 35, 262151, 1, 36, 262151, 1, 37, 262151, 1, 38, 262151, 1, 39, 262151, 1, 40, 262151, 1, 41, 262151, 1, 42, 262151, 1, 43, 262151, 1, 44, 262151, 1, 45, 262151, 1, 46, 262151, 1, 47, 262151, 1, 48, 262151, 1, 49, 262151, 1, 50, 262151, 1, 51, 262151, 1, 52, 262151, 1, 53, 262151, 1, 54, 262151, 1, 55, 262151, 1, 56, 262151, 1, 57, 262151, 1, 58, 262151, 1, 59, 262151, 1, 60, 262151, 1, 61, 262151, 1, 62, 262151, 1, 63, 262151, 1, 64, 262151, 1, 65, 262151, 1, 66, 262151, 1, 67, 262151, 1, 68, 262151, 1, 69, 262151, 1, 70, 262151, 1, 71, 262151, 1, 72, 262151, 1, 73, 262151, 1, 74, 262151, 1, 75, 262151, 1, 76, 262151, 1, 77, 262151, 1, 78, 262151, 1, 79, 262151, 1, 80, 262151, 1, 81, 262151, 1, 82, 262151, 1, 83, 262151, 1, 84, 262151, 1, 85, 262151, 1, 86, 262151, 1, 87, 262151, 1, 88, 262151, 1, 89, 262151, 1, 90, 262151, 1, 91, 262151, 1, 92, 262151, 1, 93, 262151, 1, 94, 262151, 1, 95, 262151, 1, 96, 262151, 1, 97, 262151, 1, 98, 262151, 1, 99, 262151, 1, 100, 262151, 1, 101, 262151, 1, 102, 262151, 1, 103, 262151, 1, 104, 262151, 1, 105, 262151, 1, 106, 262151, 1, 107, 262151, 1, 108, 262151, 1, 109, 262151, 1, 110, 262151, 1, 111, 262151, 1, 112, 262151, 1, 113, 262151, 1, 114, 262151, 1, 115, 262151, 1, 116, 262151, 1, 117, 262151, 1, 118, 262151, 1, 119, 262151, 1, 120, 262151, 1, 121, 262151, 1, 122, 262151, 1, 123, 262151, 1, 124, 262151, 1, 125, 262151, 1, 126, 262151, 1, 127, 262151, 1, 128, 262151, 1, 129, 262151, 1, 130, 262151, 1, 131, 262151, 1, 132, 262151, 1, 133, 262151, 1, 134, 262151, 1, 135, 262151, 1, 136, 262151, 1, 137, 262151, 1, 138, 262151, 1, 139, 262151, 1, 140, 262151, 1, 141, 262151, 1, 142, 262151, 1, 143, 262151, 1, 144, 262151, 1, 145, 262151, 1, 146, 262151, 1, 147, 262151, 1, 148, 262151, 1, 149, 262151, 1, 150, 262151, 1, 151, 262151, 1, 152, 262151, 1, 153, 262151, 1, 154, 262151, 1)
 layer_1/name = "Layer1"
-
-[node name="Parallax2D" parent="." instance=ExtResource("14_w6hnc")]
-scroll_offset = Vector2(-65, -544)
 
 [node name="Echo" parent="." groups=["player"] instance=ExtResource("14_wh83b")]
 position = Vector2(7, -292)
+script = ExtResource("15_w6hnc")
 
 [node name="Camera2D" type="Camera2D" parent="Echo"]
 position = Vector2(-2, 12)
@@ -1124,7 +1123,7 @@ limit_smoothed = true
 position_smoothing_enabled = true
 
 [node name="Area2D" parent="." instance=ExtResource("17_rgs6y")]
-position = Vector2(432, 5)
+position = Vector2(432, 18)
 
 [node name="Hud" parent="." instance=ExtResource("18_mfbgy")]
 
