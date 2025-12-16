@@ -1,12 +1,12 @@
 [gd_scene load_steps=31 format=3 uid="uid://c6ii44eix0ia0"]
 
-[ext_resource type="Script" uid="uid://rjrlmpavw0s7" path="res://Assets/Player/Character/Moveit.gd" id="1_kyqiw"]
+[ext_resource type="Script" uid="uid://rjrlmpavw0s7" path="res://Entity/Scripts/Moveit.gd" id="1_kyqiw"]
 [ext_resource type="Texture2D" uid="uid://3fwfufu74gy5" path="res://Assets/Player/Sprites/PlayerSheet.png" id="2_kyqiw"]
-[ext_resource type="Script" uid="uid://yhltcx8xc7hw" path="res://Assets/Player/Character/character_state_machine.gd" id="3_gntrk"]
-[ext_resource type="Script" uid="uid://ctcwsfkuu3d8c" path="res://Assets/Player/Character/GroundState.gd" id="4_xdlsh"]
-[ext_resource type="Script" uid="uid://pmm28mxql1lu" path="res://Assets/Player/Character/AirState.gd" id="5_ytgm2"]
-[ext_resource type="Script" uid="uid://cq130bwwuy2yo" path="res://Assets/Player/Character/LandingState.gd" id="6_ytgm2"]
-[ext_resource type="Script" uid="uid://1380gcu8hldl" path="res://Assets/Player/Character/StateDebugLabel.gd" id="7_3vvui"]
+[ext_resource type="Script" uid="uid://yhltcx8xc7hw" path="res://Entity/Scripts/character_state_machine.gd" id="3_gntrk"]
+[ext_resource type="Script" uid="uid://ctcwsfkuu3d8c" path="res://Entity/Scripts/GroundState.gd" id="4_xdlsh"]
+[ext_resource type="Script" uid="uid://pmm28mxql1lu" path="res://Entity/Scripts/AirState.gd" id="5_ytgm2"]
+[ext_resource type="Script" uid="uid://cq130bwwuy2yo" path="res://Entity/Scripts/LandingState.gd" id="6_ytgm2"]
+[ext_resource type="Script" uid="uid://1380gcu8hldl" path="res://Entity/Scripts/StateDebugLabel.gd" id="7_3vvui"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kyqiw"]
 radius = 9.0
