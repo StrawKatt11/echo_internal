@@ -7,7 +7,6 @@ extends CharacterBody2D
 @onready var sprite: Sprite2D = $Sprite2D
 @onready var state_machine: CharacterStateMachine = $CharacterStateMachine
 @onready var animate: AnimationPlayer = $AnimationPlayer
-
 func _ready():
 	tree.active = true
 	animate.play()

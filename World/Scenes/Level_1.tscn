@@ -1107,6 +1107,7 @@ script = ExtResource("1_el8jc")
 visible = false
 
 [node name="Background" parent="." instance=ExtResource("1_neuul")]
+visible = false
 position = Vector2(-11, 52)
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -1139,7 +1140,7 @@ position = Vector2(2900, -26)
 position = Vector2(4108, -26)
 
 [node name="Area2D" parent="." instance=ExtResource("20_7u0mb")]
-position = Vector2(415, 5)
+position = Vector2(0, 2)
 
 [node name="Hud" parent="." instance=ExtResource("4_vty50")]
 
