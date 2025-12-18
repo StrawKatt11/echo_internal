@@ -3,6 +3,7 @@ extends CharacterBody2D
 
 @export var SPEED = 300.0
 
+@onready var skin_manager = get_node("/root/Skins")
 @onready var tree: AnimationTree = $AnimationTree
 @onready var sprite: Sprite2D = $Sprite2D
 @onready var state_machine: CharacterStateMachine = $CharacterStateMachine

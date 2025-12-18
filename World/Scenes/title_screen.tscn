@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=3 uid="uid://bo7kx0r6ufee1"]
+[gd_scene load_steps=57 format=3 uid="uid://bo7kx0r6ufee1"]
 
 [ext_resource type="Script" uid="uid://ddtdlbtvtsrf" path="res://World/Scripts/play.gd" id="1_e2lrn"]
 [ext_resource type="PackedScene" uid="uid://c6ncjovisjcdp" path="res://World/Scenes/transition.tscn" id="2_slh1j"]
@@ -29,6 +29,7 @@
 [ext_resource type="Texture2D" uid="uid://bx53hj11ijlmv" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Pressed.png" id="26_y6qmg"]
 [ext_resource type="Texture2D" uid="uid://ckrnbahbcdy10" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Unpressed.png" id="27_msbra"]
 [ext_resource type="Texture2D" uid="uid://ckofs3yv768d1" path="res://Assets/Pixel UI & HUD/Sprites/Banners/Blue/TitleBannerDecoratorB.png" id="28_wef6y"]
+[ext_resource type="Texture2D" uid="uid://j0c2omx0wu0n" path="res://Assets/Pixel UI & HUD/Sprites/Selectors/ChevronRight_Hover.png" id="29_eghbh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jt01f"]
 texture = ExtResource("8_v47xl")
@@ -2626,6 +2627,44 @@ texture = ExtResource("26_y6qmg")
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dw7u7"]
 texture = ExtResource("27_msbra")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_02c3c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_15gvb"]
+atlas = ExtResource("29_eghbh")
+region = Rect2(0, 0, 6, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ayttk"]
+atlas = ExtResource("29_eghbh")
+region = Rect2(6, 0, 6, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7oylr"]
+atlas = ExtResource("29_eghbh")
+region = Rect2(12, 0, 6, 9)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v47xl"]
+atlas = ExtResource("29_eghbh")
+region = Rect2(18, 0, 6, 9)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v357y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_15gvb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ayttk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7oylr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v47xl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
 [sub_resource type="Theme" id="Theme_jsrd8"]
 default_font = ExtResource("24_u36k0")
 default_font_size = 13
@@ -2681,6 +2720,7 @@ autoplay = "default"
 frame_progress = 0.340948
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+modulate = Color(1, 0, 0, 1)
 position = Vector2(206, 320)
 sprite_frames = SubResource("SpriteFrames_c566c")
 autoplay = "default"
@@ -2722,7 +2762,7 @@ theme_override_font_sizes/font_size = 32
 theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
 theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
-text = "Options"
+text = "Levels"
 
 [node name="Button3" type="Button" parent="."]
 layout_mode = 1
@@ -2743,6 +2783,71 @@ theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
 theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
 text = "Quit"
+
+[node name="Button4" type="Button" parent="."]
+layout_mode = 1
+offset_left = 143.0
+offset_top = 370.0
+offset_right = 259.0
+offset_bottom = 402.0
+theme_override_fonts/font = ExtResource("24_u36k0")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
+theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
+text = "Skins"
+
+[node name="Button7" type="Button" parent="."]
+visible = false
+layout_mode = 1
+offset_left = 143.0
+offset_top = 370.0
+offset_right = 259.0
+offset_bottom = 402.0
+theme_override_fonts/font = ExtResource("24_u36k0")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
+theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
+text = "Back"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(206, 340)
+zoom = Vector2(2.8, 2.8)
+position_smoothing_enabled = true
+
+[node name="Button5" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 248.0
+offset_top = 326.0
+offset_right = 272.0
+offset_bottom = 345.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_02c3c")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button5"]
+position = Vector2(9.50001, 10)
+scale = Vector2(3.16667, 2.22223)
+sprite_frames = SubResource("SpriteFrames_v357y")
+autoplay = "default"
+frame_progress = 0.903989
+
+[node name="Button6" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 121.0
+offset_top = 326.0
+offset_right = 145.0
+offset_bottom = 345.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_02c3c")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button6"]
+position = Vector2(9.50001, 10)
+rotation = -3.14159
+scale = Vector2(3.16667, 2.22223)
+sprite_frames = SubResource("SpriteFrames_v357y")
+autoplay = "default"
+frame_progress = 0.93083
 
 [node name="Title" type="Sprite2D" parent="."]
 position = Vector2(840, 77)
@@ -2781,3 +2886,7 @@ horizontal_alignment = 2
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
 [connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="Button7" to="." method="_on_button_7_pressed"]
+[connection signal="pressed" from="Button5" to="." method="_on_button_5_pressed"]
+[connection signal="pressed" from="Button6" to="." method="_on_button_6_pressed"]

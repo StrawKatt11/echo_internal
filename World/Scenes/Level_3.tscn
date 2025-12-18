@@ -14,7 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="12_rvtoe"]
 [ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="13_x1ljd"]
 [ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="14_wh83b"]
-[ext_resource type="Script" path="res://Entity/Scripts/auto run.gd" id="15_w6hnc"]
+[ext_resource type="Script" uid="uid://cgjgwl705e1vi" path="res://Entity/Scripts/auto run.gd" id="15_w6hnc"]
 [ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/area_2d.tscn" id="17_rgs6y"]
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/hud.tscn" id="18_mfbgy"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="19_q17hi"]

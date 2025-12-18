@@ -15,6 +15,11 @@ run/main_scene="uid://bo7kx0r6ufee1"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Skins="*res://World/Scripts/skins.gd"
+Transition="*res://World/Scenes/transition.tscn"
+
 [display]
 
 window/size/viewport_width=1056

@@ -1,7 +1,7 @@
 extends Node2D
 
 @onready var pause_menu: CanvasLayer = $"Pause Menu"
-@onready var transition: CanvasLayer = $Transition
+@onready var transition = get_node("/root/Transition")
 
 var paused = false
 
