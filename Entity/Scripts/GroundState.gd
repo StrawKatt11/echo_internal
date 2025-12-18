@@ -7,7 +7,7 @@ class_name GroundState
 @export var air_state : State
 
 func state_input(event: InputEvent):
-	if(event.is_action_pressed("Jump") && character.is_on_floor()):
+	if(event.is_action_pressed("jump") && character.is_on_floor()):
 		jump()
 
 func jump():
