@@ -1,38 +1,38 @@
 [gd_scene load_steps=57 format=3 uid="uid://bo7kx0r6ufee1"]
 
-[ext_resource type="Script" uid="uid://ddtdlbtvtsrf" path="res://World/Scripts/play.gd" id="1_e2lrn"]
-[ext_resource type="PackedScene" uid="uid://c6ncjovisjcdp" path="res://World/Scenes/transition.tscn" id="2_slh1j"]
-[ext_resource type="Texture2D" uid="uid://dtxlsof4iqsxh" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_Sky.png" id="3_eghbh"]
-[ext_resource type="Texture2D" uid="uid://cjqxf8h7pk1nl" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsBack.png" id="4_02c3c"]
-[ext_resource type="Texture2D" uid="uid://dl2rpked1lru7" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsFar.png" id="5_15gvb"]
-[ext_resource type="Texture2D" uid="uid://dg5uf8nige5bo" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsMid.png" id="6_ayttk"]
-[ext_resource type="Texture2D" uid="uid://bwgq8po3dqgv5" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsClose.png" id="7_7oylr"]
-[ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="8_v47xl"]
-[ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="9_v357y"]
-[ext_resource type="Texture2D" uid="uid://bwvikvdrng4v8" path="res://Assets/Tileset/Sprites/Tilesets/Bridge.png" id="10_u7ihw"]
-[ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="11_llk2r"]
-[ext_resource type="Texture2D" uid="uid://b04udb18remvo" path="res://Assets/Tileset/Sprites/Props/Props.png" id="12_8ghsw"]
-[ext_resource type="Texture2D" uid="uid://cw5b3ren037y6" path="res://Assets/Tileset/Sprites/Props/PhoneBooths.png" id="13_aojxq"]
-[ext_resource type="Texture2D" uid="uid://dx7os1xo1dx6o" path="res://Assets/Tileset/Sprites/Props/Barriers.png" id="14_eg2jv"]
-[ext_resource type="Texture2D" uid="uid://cacqvcb5abghg" path="res://Assets/Tileset/Sprites/Props/Streetlights.png" id="15_cca2d"]
-[ext_resource type="Texture2D" uid="uid://dy5xv8usm0n2d" path="res://Assets/Tileset/Sprites/Vehicles/Vehicles_BusWhite_Jump.png" id="16_hyldl"]
-[ext_resource type="Texture2D" uid="uid://bljgh7acpk2xk" path="res://Assets/Tileset/Sprites/Buildings/Buildings.png" id="16_slh1j"]
-[ext_resource type="Texture2D" uid="uid://da7tvpaked7vr" path="res://Assets/Player/Sprites/Idle/Idle01.png" id="17_vfp57"]
-[ext_resource type="Texture2D" uid="uid://dn3yxnjn3siji" path="res://Assets/Player/Sprites/Idle/Idle02.png" id="18_bplak"]
-[ext_resource type="Texture2D" uid="uid://c62ug6ltgevf6" path="res://Assets/Player/Sprites/Idle/Idle03.png" id="19_mwyd2"]
-[ext_resource type="Texture2D" uid="uid://cgi07dkmee21o" path="res://Assets/Player/Sprites/Idle/Idle04.png" id="20_1u4bf"]
-[ext_resource type="Texture2D" uid="uid://b6nr4bhmn137q" path="res://Assets/Player/Sprites/Idle/Idle05.png" id="21_n22jr"]
-[ext_resource type="Texture2D" uid="uid://bro3v23bp2un4" path="res://Assets/Player/Sprites/Idle/Idle06.png" id="22_n3aca"]
-[ext_resource type="Texture2D" uid="uid://dg0cojepjv3q3" path="res://Assets/Player/Sprites/Idle/Idle07.png" id="23_ytfld"]
-[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="24_u36k0"]
-[ext_resource type="Texture2D" uid="uid://17du1ldgju08" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Highlighted.png" id="25_nao0l"]
-[ext_resource type="Texture2D" uid="uid://bx53hj11ijlmv" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Pressed.png" id="26_y6qmg"]
-[ext_resource type="Texture2D" uid="uid://ckrnbahbcdy10" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Unpressed.png" id="27_msbra"]
-[ext_resource type="Texture2D" uid="uid://ckofs3yv768d1" path="res://Assets/Pixel UI & HUD/Sprites/Banners/Blue/TitleBannerDecoratorB.png" id="28_wef6y"]
-[ext_resource type="Texture2D" uid="uid://j0c2omx0wu0n" path="res://Assets/Pixel UI & HUD/Sprites/Selectors/ChevronRight_Hover.png" id="29_eghbh"]
+[ext_resource type="Script" uid="uid://ddtdlbtvtsrf" path="res://World/Scripts/play.gd" id="1_kkp3d"]
+[ext_resource type="PackedScene" uid="uid://c6ncjovisjcdp" path="res://World/Scenes/transition.tscn" id="2_byqwt"]
+[ext_resource type="Texture2D" uid="uid://dtxlsof4iqsxh" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_Sky.png" id="3_883x3"]
+[ext_resource type="Texture2D" uid="uid://cjqxf8h7pk1nl" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsBack.png" id="4_um6n2"]
+[ext_resource type="Texture2D" uid="uid://dl2rpked1lru7" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsFar.png" id="5_el083"]
+[ext_resource type="Texture2D" uid="uid://dg5uf8nige5bo" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsMid.png" id="6_ls4qr"]
+[ext_resource type="Texture2D" uid="uid://bwgq8po3dqgv5" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsClose.png" id="7_xb2jh"]
+[ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="8_8pb4e"]
+[ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="9_ww6an"]
+[ext_resource type="Texture2D" uid="uid://bwvikvdrng4v8" path="res://Assets/Tileset/Sprites/Tilesets/Bridge.png" id="10_ckyqh"]
+[ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="11_wftjm"]
+[ext_resource type="Texture2D" uid="uid://b04udb18remvo" path="res://Assets/Tileset/Sprites/Props/Props.png" id="12_ufic5"]
+[ext_resource type="Texture2D" uid="uid://cw5b3ren037y6" path="res://Assets/Tileset/Sprites/Props/PhoneBooths.png" id="13_vlc3f"]
+[ext_resource type="Texture2D" uid="uid://dx7os1xo1dx6o" path="res://Assets/Tileset/Sprites/Props/Barriers.png" id="14_h504s"]
+[ext_resource type="Texture2D" uid="uid://cacqvcb5abghg" path="res://Assets/Tileset/Sprites/Props/Streetlights.png" id="15_24moq"]
+[ext_resource type="Texture2D" uid="uid://bljgh7acpk2xk" path="res://Assets/Tileset/Sprites/Buildings/Buildings.png" id="16_foqrn"]
+[ext_resource type="Texture2D" uid="uid://dy5xv8usm0n2d" path="res://Assets/Tileset/Sprites/Vehicles/Vehicles_BusWhite_Jump.png" id="17_i6wxw"]
+[ext_resource type="Texture2D" uid="uid://da7tvpaked7vr" path="res://Assets/Player/Sprites/Idle/Idle01.png" id="18_ta6a4"]
+[ext_resource type="Texture2D" uid="uid://dn3yxnjn3siji" path="res://Assets/Player/Sprites/Idle/Idle02.png" id="19_v5seb"]
+[ext_resource type="Texture2D" uid="uid://c62ug6ltgevf6" path="res://Assets/Player/Sprites/Idle/Idle03.png" id="20_rqnwc"]
+[ext_resource type="Texture2D" uid="uid://cgi07dkmee21o" path="res://Assets/Player/Sprites/Idle/Idle04.png" id="21_xuxuy"]
+[ext_resource type="Texture2D" uid="uid://b6nr4bhmn137q" path="res://Assets/Player/Sprites/Idle/Idle05.png" id="22_ydwjr"]
+[ext_resource type="Texture2D" uid="uid://bro3v23bp2un4" path="res://Assets/Player/Sprites/Idle/Idle06.png" id="23_yumq6"]
+[ext_resource type="Texture2D" uid="uid://dg0cojepjv3q3" path="res://Assets/Player/Sprites/Idle/Idle07.png" id="24_rcy6h"]
+[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="25_8c7me"]
+[ext_resource type="Texture2D" uid="uid://17du1ldgju08" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Highlighted.png" id="26_67adb"]
+[ext_resource type="Texture2D" uid="uid://bx53hj11ijlmv" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Pressed.png" id="27_m0top"]
+[ext_resource type="Texture2D" uid="uid://ckrnbahbcdy10" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Unpressed.png" id="28_pec2p"]
+[ext_resource type="Texture2D" uid="uid://j0c2omx0wu0n" path="res://Assets/Pixel UI & HUD/Sprites/Selectors/ChevronRight_Hover.png" id="29_mj1us"]
+[ext_resource type="Texture2D" uid="uid://ckofs3yv768d1" path="res://Assets/Pixel UI & HUD/Sprites/Banners/Blue/TitleBannerDecoratorB.png" id="30_hnaei"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jt01f"]
-texture = ExtResource("8_v47xl")
+texture = ExtResource("8_8pb4e")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -99,7 +99,7 @@ texture = ExtResource("8_v47xl")
 5:4/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jsyrp"]
-texture = ExtResource("9_v357y")
+texture = ExtResource("9_ww6an")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -149,7 +149,7 @@ texture = ExtResource("9_v357y")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yg3dm"]
-texture = ExtResource("10_u7ihw")
+texture = ExtResource("10_ckyqh")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -180,7 +180,7 @@ texture = ExtResource("10_u7ihw")
 4:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vk20w"]
-texture = ExtResource("11_llk2r")
+texture = ExtResource("11_wftjm")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -251,7 +251,7 @@ texture = ExtResource("11_llk2r")
 15:8/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5r4va"]
-texture = ExtResource("12_8ghsw")
+texture = ExtResource("12_ufic5")
 1:1/0 = 0
 2:1/0 = 0
 4:1/0 = 0
@@ -707,7 +707,7 @@ texture = ExtResource("12_8ghsw")
 35:54/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_06wbl"]
-texture = ExtResource("13_aojxq")
+texture = ExtResource("13_vlc3f")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -958,7 +958,7 @@ texture = ExtResource("13_aojxq")
 33:11/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_obujx"]
-texture = ExtResource("14_eg2jv")
+texture = ExtResource("14_h504s")
 19:0/0 = 0
 20:0/0 = 0
 18:1/0 = 0
@@ -1111,7 +1111,7 @@ texture = ExtResource("14_eg2jv")
 21:15/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mmeuf"]
-texture = ExtResource("15_cca2d")
+texture = ExtResource("15_24moq")
 5:1/0 = 0
 6:1/0 = 0
 14:1/0 = 0
@@ -1318,7 +1318,7 @@ texture = ExtResource("15_cca2d")
 111:10/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eghbh"]
-texture = ExtResource("16_slh1j")
+texture = ExtResource("16_foqrn")
 15:1/0 = 0
 16:1/0 = 0
 1:2/0 = 0
@@ -2554,19 +2554,19 @@ sources/7 = SubResource("TileSetAtlasSource_mmeuf")
 sources/8 = SubResource("TileSetAtlasSource_eghbh")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s0864"]
-atlas = ExtResource("16_hyldl")
+atlas = ExtResource("17_i6wxw")
 region = Rect2(0, 0, 176, 80)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dkce5"]
-atlas = ExtResource("16_hyldl")
+atlas = ExtResource("17_i6wxw")
 region = Rect2(176, 0, 176, 80)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iivis"]
-atlas = ExtResource("16_hyldl")
+atlas = ExtResource("17_i6wxw")
 region = Rect2(352, 0, 176, 80)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ksh3q"]
-atlas = ExtResource("16_hyldl")
+atlas = ExtResource("17_i6wxw")
 region = Rect2(528, 0, 176, 80)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_v6d0p"]
@@ -2593,25 +2593,25 @@ animations = [{
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("17_vfp57")
+"texture": ExtResource("18_ta6a4")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_bplak")
+"texture": ExtResource("19_v5seb")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_mwyd2")
+"texture": ExtResource("20_rqnwc")
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_1u4bf")
+"texture": ExtResource("21_xuxuy")
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_n22jr")
+"texture": ExtResource("22_ydwjr")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_n3aca")
+"texture": ExtResource("23_yumq6")
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_ytfld")
+"texture": ExtResource("24_rcy6h")
 }],
 "loop": true,
 "name": &"default",
@@ -2619,30 +2619,30 @@ animations = [{
 }]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f2is8"]
-texture = ExtResource("25_nao0l")
+texture = ExtResource("26_67adb")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_46772"]
-texture = ExtResource("26_y6qmg")
+texture = ExtResource("27_m0top")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dw7u7"]
-texture = ExtResource("27_msbra")
+texture = ExtResource("28_pec2p")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_02c3c"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_15gvb"]
-atlas = ExtResource("29_eghbh")
+atlas = ExtResource("29_mj1us")
 region = Rect2(0, 0, 6, 9)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ayttk"]
-atlas = ExtResource("29_eghbh")
+atlas = ExtResource("29_mj1us")
 region = Rect2(6, 0, 6, 9)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7oylr"]
-atlas = ExtResource("29_eghbh")
+atlas = ExtResource("29_mj1us")
 region = Rect2(12, 0, 6, 9)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_v47xl"]
-atlas = ExtResource("29_eghbh")
+atlas = ExtResource("29_mj1us")
 region = Rect2(18, 0, 6, 9)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_v357y"]
@@ -2666,7 +2666,7 @@ animations = [{
 }]
 
 [sub_resource type="Theme" id="Theme_jsrd8"]
-default_font = ExtResource("24_u36k0")
+default_font = ExtResource("25_8c7me")
 default_font_size = 13
 
 [node name="Title_Screen" type="Control"]
@@ -2678,29 +2678,29 @@ offset_right = -1056.0
 offset_bottom = -548.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_e2lrn")
+script = ExtResource("1_kkp3d")
 
-[node name="Transition" parent="." instance=ExtResource("2_slh1j")]
+[node name="Transition" parent="." instance=ExtResource("2_byqwt")]
 
 [node name="BackgroundsSky" type="Sprite2D" parent="."]
 position = Vector2(528, 274)
-texture = ExtResource("3_eghbh")
+texture = ExtResource("3_883x3")
 
 [node name="BackgroundsBuildingsBack" type="Sprite2D" parent="."]
 position = Vector2(528, 274)
-texture = ExtResource("4_02c3c")
+texture = ExtResource("4_um6n2")
 
 [node name="BackgroundsBuildingsFar" type="Sprite2D" parent="."]
 position = Vector2(528, 274)
-texture = ExtResource("5_15gvb")
+texture = ExtResource("5_el083")
 
 [node name="BackgroundsBuildingsMid" type="Sprite2D" parent="."]
 position = Vector2(528, 274)
-texture = ExtResource("6_ayttk")
+texture = ExtResource("6_ls4qr")
 
 [node name="BackgroundsBuildingsClose" type="Sprite2D" parent="."]
 position = Vector2(528, 274)
-texture = ExtResource("7_7oylr")
+texture = ExtResource("7_xb2jh")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_wwuk5")
@@ -2720,7 +2720,6 @@ autoplay = "default"
 frame_progress = 0.340948
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
-modulate = Color(1, 0, 0, 1)
 position = Vector2(206, 320)
 sprite_frames = SubResource("SpriteFrames_c566c")
 autoplay = "default"
@@ -2739,7 +2738,7 @@ offset_right = 332.0
 offset_bottom = 137.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("24_u36k0")
+theme_override_fonts/font = ExtResource("25_8c7me")
 theme_override_font_sizes/font_size = 32
 theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
@@ -2757,7 +2756,7 @@ offset_right = 332.0
 offset_bottom = 218.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("24_u36k0")
+theme_override_fonts/font = ExtResource("25_8c7me")
 theme_override_font_sizes/font_size = 32
 theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
@@ -2777,7 +2776,7 @@ offset_right = 332.0
 offset_bottom = 300.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("24_u36k0")
+theme_override_fonts/font = ExtResource("25_8c7me")
 theme_override_font_sizes/font_size = 32
 theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
@@ -2790,7 +2789,7 @@ offset_left = 143.0
 offset_top = 370.0
 offset_right = 259.0
 offset_bottom = 402.0
-theme_override_fonts/font = ExtResource("24_u36k0")
+theme_override_fonts/font = ExtResource("25_8c7me")
 theme_override_font_sizes/font_size = 16
 theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
@@ -2804,7 +2803,7 @@ offset_left = 143.0
 offset_top = 370.0
 offset_right = 259.0
 offset_bottom = 402.0
-theme_override_fonts/font = ExtResource("24_u36k0")
+theme_override_fonts/font = ExtResource("25_8c7me")
 theme_override_font_sizes/font_size = 16
 theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
@@ -2852,7 +2851,7 @@ frame_progress = 0.93083
 [node name="Title" type="Sprite2D" parent="."]
 position = Vector2(840, 77)
 scale = Vector2(2.67694, 2.49)
-texture = ExtResource("28_wef6y")
+texture = ExtResource("30_hnaei")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Title"]
 anchors_preset = -1
@@ -2875,7 +2874,7 @@ offset_left = 935.0
 offset_top = 471.0
 offset_right = 1041.0
 offset_bottom = 538.0
-theme_override_fonts/normal_font = ExtResource("24_u36k0")
+theme_override_fonts/normal_font = ExtResource("25_8c7me")
 theme_override_font_sizes/normal_font_size = 16
 text = "Ver 0.0.1
 
