@@ -19,7 +19,7 @@
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="15_57dsp"]
 [ext_resource type="Script" uid="uid://cw5snm27lq07j" path="res://World/Scripts/load_leves_3.gd" id="18_8gp1p"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q8wyw"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3y75e"]
 texture = ExtResource("1_diio2")
 1:1/0 = 0
 3:1/0 = 0
@@ -69,7 +69,7 @@ texture = ExtResource("1_diio2")
 4:5/0 = 0
 5:5/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rq6k0"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wo5q5"]
 texture = ExtResource("2_v1bqs")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -208,7 +208,7 @@ texture = ExtResource("2_v1bqs")
 15:8/0 = 0
 15:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0ouaf"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h6umj"]
 texture = ExtResource("3_7qdet")
 2:1/0 = 0
 2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -531,7 +531,7 @@ texture = ExtResource("3_7qdet")
 20:17/0 = 0
 20:17/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_25io1"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y3ewf"]
 texture = ExtResource("6_25io1")
 1:1/0 = 0
 3:1/0 = 0
@@ -581,7 +581,7 @@ texture = ExtResource("6_25io1")
 4:5/0 = 0
 5:5/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8gp1p"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vgie3"]
 texture = ExtResource("9_vq2h6")
 1:1/0 = 0
 3:1/0 = 0
@@ -647,7 +647,7 @@ texture = ExtResource("9_vq2h6")
 6:9/0 = 0
 7:9/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xd5wc"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t2xiw"]
 texture = ExtResource("4_57dsp")
 1:1/0 = 0
 2:1/0 = 0
@@ -678,7 +678,7 @@ texture = ExtResource("4_57dsp")
 3:7/0 = 0
 4:7/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_sucmb"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_erhm4"]
 texture = ExtResource("5_tm7ih")
 1:1/0 = 0
 3:1/0 = 0
@@ -728,7 +728,7 @@ texture = ExtResource("5_tm7ih")
 4:5/0 = 0
 5:5/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_go0cy"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pyd8s"]
 texture = ExtResource("6_25io1")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -829,7 +829,7 @@ texture = ExtResource("6_25io1")
 5:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:5/0/physics_layer_0/polygon_0/one_way = true
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7lt02"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ww37r"]
 texture = ExtResource("7_8gp1p")
 1:1/0 = 0
 2:1/0 = 0
@@ -885,7 +885,7 @@ texture = ExtResource("7_8gp1p")
 4:6/0 = 0
 5:6/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ssyor"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_by7el"]
 texture = ExtResource("8_yybfe")
 1:1/0 = 0
 2:1/0 = 0
@@ -910,7 +910,7 @@ texture = ExtResource("8_yybfe")
 6:5/0 = 0
 7:5/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8mcgu"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fdd5t"]
 texture = ExtResource("9_vq2h6")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -1039,7 +1039,7 @@ texture = ExtResource("9_vq2h6")
 7:9/0 = 0
 7:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bdg83"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6wh0u"]
 texture = ExtResource("10_f6u1m")
 1:1/0 = 0
 3:1/0 = 0
@@ -1089,7 +1089,7 @@ texture = ExtResource("10_f6u1m")
 4:5/0 = 0
 5:5/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_awmmt"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xpei7"]
 texture = ExtResource("11_efh70")
 11:0/0 = 0
 12:0/0 = 0
@@ -1191,19 +1191,19 @@ texture = ExtResource("11_efh70")
 
 [sub_resource type="TileSet" id="TileSet_kycx6"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_q8wyw")
-sources/1 = SubResource("TileSetAtlasSource_rq6k0")
-sources/2 = SubResource("TileSetAtlasSource_xd5wc")
-sources/3 = SubResource("TileSetAtlasSource_sucmb")
-sources/4 = SubResource("TileSetAtlasSource_go0cy")
-sources/5 = SubResource("TileSetAtlasSource_7lt02")
-sources/6 = SubResource("TileSetAtlasSource_ssyor")
-sources/7 = SubResource("TileSetAtlasSource_8mcgu")
-sources/8 = SubResource("TileSetAtlasSource_bdg83")
-sources/9 = SubResource("TileSetAtlasSource_awmmt")
-sources/10 = SubResource("TileSetAtlasSource_0ouaf")
-sources/11 = SubResource("TileSetAtlasSource_25io1")
-sources/12 = SubResource("TileSetAtlasSource_8gp1p")
+sources/0 = SubResource("TileSetAtlasSource_3y75e")
+sources/1 = SubResource("TileSetAtlasSource_wo5q5")
+sources/2 = SubResource("TileSetAtlasSource_t2xiw")
+sources/3 = SubResource("TileSetAtlasSource_erhm4")
+sources/4 = SubResource("TileSetAtlasSource_pyd8s")
+sources/5 = SubResource("TileSetAtlasSource_ww37r")
+sources/6 = SubResource("TileSetAtlasSource_by7el")
+sources/7 = SubResource("TileSetAtlasSource_fdd5t")
+sources/8 = SubResource("TileSetAtlasSource_6wh0u")
+sources/9 = SubResource("TileSetAtlasSource_xpei7")
+sources/10 = SubResource("TileSetAtlasSource_h6umj")
+sources/11 = SubResource("TileSetAtlasSource_y3ewf")
+sources/12 = SubResource("TileSetAtlasSource_vgie3")
 
 [sub_resource type="Theme" id="Theme_tm7ih"]
 default_font = ExtResource("15_57dsp")
@@ -1306,6 +1306,7 @@ offset_right = 1056.0
 offset_bottom = 21.0
 theme = SubResource("Theme_tm7ih")
 text = "Level 2 - Skyscraper"
+metadata/_edit_use_anchors_ = true
 
 [node name="Load_leves3" type="Area2D" parent="."]
 script = ExtResource("18_8gp1p")
