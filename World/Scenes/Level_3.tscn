@@ -20,11 +20,7 @@
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/hud.tscn" id="18_mfbgy"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="19_q17hi"]
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w6hnc"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_twfjo"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("3_ks2qj")
 1:1/0 = 0
 3:1/0 = 0
@@ -74,11 +70,7 @@ texture = ExtResource("3_ks2qj")
 4:5/0 = 0
 5:5/0 = 0
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vgtgd"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ft88j"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("4_fyg01")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -217,11 +209,7 @@ texture = ExtResource("4_fyg01")
 15:8/0 = 0
 15:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_61umb"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qx5gn"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("5_dimxf")
 2:1/0 = 0
 2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -548,7 +536,6 @@ texture = ExtResource("5_dimxf")
 20:17/0 = 0
 20:17/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5py3w"]
 texture = ExtResource("6_vgtgd")
 15:1/0 = 0
@@ -1787,9 +1774,6 @@ texture = ExtResource("6_vgtgd")
 32:48/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_twfjo"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qm5fd"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("6_is6g6")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 5.00038, -8, 5.03605)
@@ -1823,11 +1807,7 @@ texture = ExtResource("6_is6g6")
 3:7/0 = 0
 4:7/0 = 0
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ft88j"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e87l8"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("7_gxv86")
 1:1/0 = 0
 3:1/0 = 0
@@ -1877,11 +1857,7 @@ texture = ExtResource("7_gxv86")
 4:5/0 = 0
 5:5/0 = 0
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qx5gn"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d55bf"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("8_hqtot")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -1982,11 +1958,7 @@ texture = ExtResource("8_hqtot")
 5:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:5/0/physics_layer_0/polygon_0/one_way = true
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qm5fd"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h8ngs"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("9_dalvw")
 1:1/0 = 0
 2:1/0 = 0
@@ -2042,11 +2014,7 @@ texture = ExtResource("9_dalvw")
 4:6/0 = 0
 5:6/0 = 0
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e87l8"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6gfbm"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("10_fddji")
 1:1/0 = 0
 2:1/0 = 0
@@ -2071,11 +2039,7 @@ texture = ExtResource("10_fddji")
 6:5/0 = 0
 7:5/0 = 0
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d55bf"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_agrdl"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("11_l8qeq")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -2204,11 +2168,7 @@ texture = ExtResource("11_l8qeq")
 7:9/0 = 0
 7:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h8ngs"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c7jii"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("12_rvtoe")
 1:1/0 = 0
 3:1/0 = 0
@@ -2258,11 +2218,7 @@ texture = ExtResource("12_rvtoe")
 4:5/0 = 0
 5:5/0 = 0
 
-<<<<<<< HEAD
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6gfbm"]
-=======
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0uytt"]
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 texture = ExtResource("13_x1ljd")
 11:0/0 = 0
 12:0/0 = 0
@@ -2367,7 +2323,6 @@ texture = ExtResource("13_x1ljd")
 
 [sub_resource type="TileSet" id="TileSet_ck2vj"]
 physics_layer_0/collision_layer = 1
-<<<<<<< HEAD
 sources/0 = SubResource("TileSetAtlasSource_w6hnc")
 sources/1 = SubResource("TileSetAtlasSource_vgtgd")
 sources/2 = SubResource("TileSetAtlasSource_twfjo")
@@ -2380,19 +2335,6 @@ sources/8 = SubResource("TileSetAtlasSource_h8ngs")
 sources/9 = SubResource("TileSetAtlasSource_6gfbm")
 sources/10 = SubResource("TileSetAtlasSource_61umb")
 sources/11 = SubResource("TileSetAtlasSource_5py3w")
-=======
-sources/0 = SubResource("TileSetAtlasSource_twfjo")
-sources/1 = SubResource("TileSetAtlasSource_ft88j")
-sources/2 = SubResource("TileSetAtlasSource_qm5fd")
-sources/3 = SubResource("TileSetAtlasSource_e87l8")
-sources/4 = SubResource("TileSetAtlasSource_d55bf")
-sources/5 = SubResource("TileSetAtlasSource_h8ngs")
-sources/6 = SubResource("TileSetAtlasSource_6gfbm")
-sources/7 = SubResource("TileSetAtlasSource_agrdl")
-sources/8 = SubResource("TileSetAtlasSource_c7jii")
-sources/9 = SubResource("TileSetAtlasSource_0uytt")
-sources/10 = SubResource("TileSetAtlasSource_qx5gn")
->>>>>>> 9a5baae480c67baa6d7d58502df9927597edacb9
 
 [sub_resource type="Theme" id="Theme_m0ax1"]
 default_font = ExtResource("19_q17hi")
