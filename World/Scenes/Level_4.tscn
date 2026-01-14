@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://cka23108lclnw"]
+[gd_scene load_steps=32 format=3 uid="uid://bny3272r7d4y"]
 
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/pause_menu.tscn" id="1_7nfw4"]
 [ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="3_5py3w"]
