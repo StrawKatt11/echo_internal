@@ -1231,6 +1231,7 @@ z_index = 5
 position = Vector2(2, -6)
 
 [node name="Camera2D" type="Camera2D" parent="Echo"]
+zoom = Vector2(1.75, 1.75)
 limit_left = -528
 limit_top = -1440
 limit_right = 528

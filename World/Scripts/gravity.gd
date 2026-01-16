@@ -15,10 +15,10 @@ func _ready():
 
 func _physics_process(delta: float):
 
-	if not is_on_ceiling():
+	if not is_on_floor():
 		velocity += (get_gravity() * -1)  * delta
 
-	if Input.is_action_just_pressed("jump") and is_on_ceiling():
+	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 
 	var direction := Input.get_axis("right", "left")
@@ -38,6 +38,6 @@ func die():
 	global_position = startposition
 func update_facing_direction():
 	if velocity.x > 0:
-		sprite.flip_h=false
-	elif velocity.x < 0:
 		sprite.flip_h=true
+	elif velocity.x < 0:
+		sprite.flip_h=false

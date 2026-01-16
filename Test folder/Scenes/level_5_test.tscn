@@ -1106,7 +1106,7 @@ layer_0/tile_data = PackedInt32Array(-5, 720897, 6, -4, 786433, 6, -3, 917505, 6
 layer_1/name = "Layer1"
 
 [node name="Echo" parent="." groups=["player"] instance=ExtResource("14_avmd3")]
-position = Vector2(130, -459)
+position = Vector2(114, -447)
 rotation = -3.14064
 scale = Vector2(-1.00046, 1)
 script = ExtResource("15_obk8y")
