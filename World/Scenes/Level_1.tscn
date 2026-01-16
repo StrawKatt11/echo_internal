@@ -1,6 +1,5 @@
-[gd_scene load_steps=36 format=3 uid="uid://i6cm42kq6hpu"]
+[gd_scene load_steps=35 format=3 uid="uid://i6cm42kq6hpu"]
 
-[ext_resource type="Script" uid="uid://brt7ixscauna1" path="res://World/Scripts/pauseshow.gd" id="1_el8jc"]
 [ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Background.tscn" id="1_neuul"]
 [ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="2_m620h"]
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/pause_menu.tscn" id="2_qkon5"]
@@ -1104,7 +1103,6 @@ size = Vector2(16, 48)
 
 [node name="Pause Menu" parent="." instance=ExtResource("2_qkon5")]
 visible = false
-script = ExtResource("1_el8jc")
 
 [node name="Background" parent="." instance=ExtResource("1_neuul")]
 position = Vector2(-11, 52)
