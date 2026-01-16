@@ -1,4 +1,4 @@
-extends Node2D
+extends CanvasLayer
 
 @onready var pause_menu: CanvasLayer = $"Pause Menu"
 @onready var transition = get_node("/root/Transition")
@@ -11,9 +11,9 @@ func _process(delta: float) -> void:
 
 func pauseMenu():
 	if paused:
-		pause_menu.hide()
+		hide()
 		Engine.time_scale = 1
 	else:
-		pause_menu.show()
+		show()
 		Engine.time_scale = 0
 	paused = !paused

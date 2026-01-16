@@ -1,6 +1,6 @@
 [gd_scene load_steps=35 format=3 uid="uid://b8pxbljkm1l6r"]
 
-[ext_resource type="Script" uid="uid://brt7ixscauna1" path="res://World/Scripts/Leves1_ee.gd" id="1_25io1"]
+[ext_resource type="Script" uid="uid://brt7ixscauna1" path="res://World/Scripts/pauseshow.gd" id="1_25io1"]
 [ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="1_diio2"]
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/pause_menu.tscn" id="1_tm7ih"]
 [ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="2_v1bqs"]

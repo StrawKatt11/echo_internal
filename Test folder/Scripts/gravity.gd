@@ -15,7 +15,7 @@ func _ready():
 
 func _physics_process(delta: float):
 
-	if not is_on_floor():
+	if not is_on_ceiling():
 		velocity += (get_gravity() * -1)  * delta
 
 	if Input.is_action_just_pressed("jump") and is_on_ceiling():

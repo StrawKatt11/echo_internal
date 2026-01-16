@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 
 @export var SPEED = 300.0
+var startposition = position
 
 @onready var skin_manager = get_node("/root/Skins")
 @onready var tree: AnimationTree = $AnimationTree
@@ -32,7 +33,7 @@ func update_animation():
 	tree.set("parameters/move/blend_position", velocity.x)
 
 func die():
-	global_position = Vector2(2, -38)
+	global_position = startposition
 func update_facing_direction():
 	if velocity.x > 0:
 		sprite.flip_h=false
