@@ -15,7 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="13_n23sd"]
 [ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="14_avmd3"]
 [ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/area_2d.tscn" id="15_7eedo"]
-[ext_resource type="Script" uid="uid://pbawxhivj8xk" path="res://Test folder/Scripts/gravity.gd" id="15_obk8y"]
+[ext_resource type="Script" uid="uid://pbawxhivj8xk" path="res://World/Scripts/gravity.gd" id="15_obk8y"]
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/hud.tscn" id="16_xpcqx"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="17_d8k2a"]
 
@@ -1106,7 +1106,7 @@ layer_0/tile_data = PackedInt32Array(-5, 720897, 6, -4, 786433, 6, -3, 917505, 6
 layer_1/name = "Layer1"
 
 [node name="Echo" parent="." groups=["player"] instance=ExtResource("14_avmd3")]
-position = Vector2(130, -459)
+position = Vector2(114, -447)
 rotation = -3.14064
 scale = Vector2(-1.00046, 1)
 script = ExtResource("15_obk8y")
