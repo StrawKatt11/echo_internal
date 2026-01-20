@@ -15,7 +15,11 @@ func _ready():
 func _physics_process(delta: float):
 	
 	if not is_on_floor():
+<<<<<<< HEAD
 		velocity.y = gravity * 5
+=======
+		velocity.y = gravity * 2
+>>>>>>> a6be1c23457815e6fbc886a70288cbba1d055539
 
 	var direction := Input.get_axis("left", "right")
 	if direction:

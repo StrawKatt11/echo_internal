@@ -13,6 +13,7 @@ var startposition = position
 func _ready():
 	tree.active = true
 	animate.play()
+	var startposition = position
 
 func _physics_process(delta: float):
 

@@ -63,8 +63,11 @@ func _on_button_7_pressed() -> void:
 	camera_2d.enabled = false
 
 
-func _on_button_5_pressed() -> void:
-	pass # Replace with function body.
+func _on_button_5_pressed(index):
+	if index == skin_manager.skins.size():
+		skin_manager.selected_skin_index = index
+		# Emit a signal for the player to listen to, if needed
+		emit_signal("skin_changed")
 
 
 func _on_button_6_pressed() -> void:
