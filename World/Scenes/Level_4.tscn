@@ -12,7 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="11_thvb5"]
 [ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="12_k8e2b"]
 [ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="13_66pv6"]
-[ext_resource type="Script" uid="uid://pbawxhivj8xk" path="res://World/Scripts/gravity.gd" id="14_ff54b"]
+[ext_resource type="Script" uid="uid://erfw8p5fa5y2" path="res://Entity/Balloon.gd" id="14_ff54b"]
 [ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="14_qnitr"]
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/hud.tscn" id="17_x8l4c"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="18_2kgho"]
@@ -1223,7 +1223,8 @@ layer_2/tile_data = PackedInt32Array(51052512, 1048586, 10, 51118048, 1048586, 1
 
 [node name="Echo" parent="." groups=["player"] instance=ExtResource("14_qnitr")]
 z_index = 5
-position = Vector2(2, 13242)
+position = Vector2(6, 13858)
+up_direction = Vector2(0, 1)
 script = ExtResource("14_ff54b")
 
 [node name="Camera2D" type="Camera2D" parent="Echo"]
@@ -1231,9 +1232,9 @@ script = ExtResource("14_ff54b")
 [node name="Hud" parent="." instance=ExtResource("17_x8l4c")]
 
 [node name="Label2" type="Label" parent="Hud"]
-offset_left = 838.0
+offset_left = 692.0
 offset_right = 1056.0
 offset_bottom = 21.0
 theme = SubResource("Theme_k8e2b")
-text = "Level 2 - Skyscraper"
+text = "Level 4 - Anti-Gravity Skyscraper"
 metadata/_edit_use_anchors_ = true

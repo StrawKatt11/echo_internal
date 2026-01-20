@@ -1,7 +1,6 @@
-[gd_scene load_steps=35 format=3 uid="uid://ch0eictewxgjv"]
+[gd_scene load_steps=34 format=3 uid="uid://ch0eictewxgjv"]
 
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/pause_menu.tscn" id="1_8e1fl"]
-[ext_resource type="Script" uid="uid://brt7ixscauna1" path="res://World/Scripts/pauseshow.gd" id="2_61umb"]
 [ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Background.tscn" id="2_vt1oc"]
 [ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="3_ks2qj"]
 [ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="4_fyg01"]
@@ -2344,7 +2343,6 @@ default_font = ExtResource("19_q17hi")
 
 [node name="Pause Menu" parent="." instance=ExtResource("1_8e1fl")]
 visible = false
-script = ExtResource("2_61umb")
 
 [node name="Background" parent="." instance=ExtResource("2_vt1oc")]
 position = Vector2(37, 52)
