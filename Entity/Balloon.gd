@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @export var SPEED = 300.0
-var gravity = get_gravity()
+var gravity = -100
 
 @onready var skin_manager = get_node("/root/Skins")
 @onready var tree: AnimationTree = $AnimationTree
@@ -13,9 +13,9 @@ func _ready():
 	animate.play()
 
 func _physics_process(delta: float):
-
+	
 	if not is_on_floor():
-		velocity += (gravity*-1) * delta
+		velocity.y = gravity * 5
 
 	var direction := Input.get_axis("left", "right")
 	if direction:
