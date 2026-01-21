@@ -16,7 +16,7 @@ func _ready():
 func _physics_process(delta: float):
 	
 	if not is_on_floor():
-		velocity.y = gravity * 3.5
+		velocity.y = gravity * 2
 
 	var direction := Input.get_axis("left", "right")
 	if direction:
