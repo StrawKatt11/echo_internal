@@ -7,6 +7,7 @@ var gravity = -100
 @onready var tree: AnimationTree = $AnimationTree
 @onready var sprite: Sprite2D = $Sprite2D
 @onready var animate: AnimationPlayer = $AnimationPlayer
+@onready var layer_1: TileMapLayer = $"../TileMap/Layer1"
 
 func _ready():
 	tree.active = true
