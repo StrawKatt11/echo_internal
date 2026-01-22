@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://copqhuojexly4"]
+
+[ext_resource type="Script" uid="uid://dtmac0pknb45n" path="res://World/Scenes/halal_mesterfokon.gd" id="1_7lhut"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_27vor"]
+radius = 9.0
+height = 40.0
+
+[node name="Death_Collision" type="Area2D"]
+collision_mask = 4
+script = ExtResource("1_7lhut")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_27vor")
+debug_color = Color(0.996738, 0, 0.18075, 0.42)
