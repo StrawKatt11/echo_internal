@@ -1238,14 +1238,14 @@ limit_right = 528
 limit_bottom = 32
 
 [node name="TimedPlatform1" parent="." instance=ExtResource("13_v1bqs")]
-position = Vector2(-543, -1100)
+visible = false
+position = Vector2(3, -992)
 
 [node name="Timer" type="Timer" parent="TimedPlatform1"]
 autostart = true
 
 [node name="TimedPlatform2" parent="." instance=ExtResource("13_v1bqs")]
-visible = false
-position = Vector2(-702, -1177)
+position = Vector2(-156, -1069)
 collision_layer = 0
 collision_mask = 0
 
@@ -1253,14 +1253,14 @@ collision_mask = 0
 autostart = true
 
 [node name="TimedPlatform3" parent="." instance=ExtResource("13_v1bqs")]
-position = Vector2(-849, -1250)
+visible = false
+position = Vector2(-303, -1142)
 
 [node name="Timer" type="Timer" parent="TimedPlatform3"]
 autostart = true
 
 [node name="TimedPlatform4" parent="." instance=ExtResource("13_v1bqs")]
-visible = false
-position = Vector2(-649, -1278)
+position = Vector2(-103, -1170)
 collision_layer = 0
 collision_mask = 0
 
@@ -1268,14 +1268,14 @@ collision_mask = 0
 autostart = true
 
 [node name="TimedPlatform5" parent="." instance=ExtResource("13_v1bqs")]
-position = Vector2(-444, -1280)
+visible = false
+position = Vector2(102, -1172)
 
 [node name="Timer" type="Timer" parent="TimedPlatform5"]
 autostart = true
 
 [node name="TimedPlatform6" parent="." instance=ExtResource("13_v1bqs")]
-visible = false
-position = Vector2(-257, -1321)
+position = Vector2(289, -1213)
 collision_layer = 0
 collision_mask = 0
 
@@ -1283,8 +1283,7 @@ collision_mask = 0
 autostart = true
 
 [node name="TimedPlatform7" parent="." instance=ExtResource("13_v1bqs")]
-visible = false
-position = Vector2(-543, -1456)
+position = Vector2(3, -1348)
 collision_layer = 0
 collision_mask = 0
 
@@ -1292,7 +1291,8 @@ collision_mask = 0
 autostart = true
 
 [node name="TimedPlatform8" parent="." instance=ExtResource("13_v1bqs")]
-position = Vector2(-385, -1389)
+visible = false
+position = Vector2(161, -1281)
 
 [node name="Timer" type="Timer" parent="TimedPlatform8"]
 autostart = true

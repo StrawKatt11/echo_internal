@@ -32,9 +32,13 @@ func update_animation():
 	tree.set("parameters/move/blend_position", velocity.x)
 
 func die():
-	global_position = Vector2(2, -38)
+	global_position = Vector2(3, 13860)
 func update_facing_direction():
 	if velocity.x > 0:
 		sprite.flip_h=false
 	elif velocity.x < 0:
 		sprite.flip_h=true
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	die()
