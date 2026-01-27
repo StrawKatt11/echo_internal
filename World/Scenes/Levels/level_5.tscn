@@ -1,31 +1,31 @@
 [gd_scene load_steps=38 format=3 uid="uid://c77nk2gh7gnbh"]
 
-[ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_crh65"]
-[ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Elements/Background.tscn" id="2_ei0k6"]
-[ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="3_k8c2y"]
-[ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="4_yaxfw"]
-[ext_resource type="Texture2D" uid="uid://cwhdt8r68ivv3" path="res://Assets/Tileset/Sprites/Tilesets/Walls.png" id="5_08c13"]
-[ext_resource type="Texture2D" uid="uid://bwvikvdrng4v8" path="res://Assets/Tileset/Sprites/Tilesets/Bridge.png" id="6_bc0c7"]
-[ext_resource type="Texture2D" uid="uid://d33cuffjrsv7t" path="res://Assets/Tileset/Sprites/Tilesets/Bushes.png" id="7_mlglw"]
-[ext_resource type="Texture2D" uid="uid://dr4bdq25jhbba" path="res://Assets/Tileset/Sprites/Tilesets/Construction.png" id="8_n16en"]
-[ext_resource type="Texture2D" uid="uid://do6a1bw6uw2ef" path="res://Assets/Tileset/Sprites/Tilesets/ConstructionOverlay.png" id="9_lp6rd"]
-[ext_resource type="Texture2D" uid="uid://wnodq1mio850" path="res://Assets/Tileset/Sprites/Tilesets/Ledges.png" id="10_hvuu1"]
-[ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="11_syatf"]
-[ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="12_i1jfx"]
-[ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="13_fd6nw"]
-[ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="14_oywaw"]
-[ext_resource type="Script" uid="uid://pbawxhivj8xk" path="res://World/Scripts/gravity.gd" id="15_fanb5"]
-[ext_resource type="PackedScene" uid="uid://bdmby2ymuda1w" path="res://World/Scenes/Elements/Bus.tscn" id="16_4grsq"]
-[ext_resource type="PackedScene" uid="uid://cw2rdvbqi4n54" path="res://World/Scenes/Elements/Sub.tscn" id="17_bqiyf"]
-[ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/Elements/area_2d.tscn" id="18_c17gd"]
-[ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="19_a2sqj"]
-[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="20_8tt2v"]
-[ext_resource type="Script" uid="uid://ce41r6wl5o0yc" path="res://World/Scripts/load_leves_2.gd" id="21_n8ni6"]
-[ext_resource type="PackedScene" uid="uid://duhe3ktl8tkcn" path="res://World/Scenes/Elements/timed_platform_small.tscn" id="22_xxr3f"]
-[ext_resource type="PackedScene" uid="uid://g4qy178lttkf" path="res://World/Scenes/Elements/timed_platform_1.tscn" id="23_31fw2"]
+[ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_3qtys"]
+[ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Elements/Background.tscn" id="2_6p4hl"]
+[ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="3_imyo4"]
+[ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="4_802pu"]
+[ext_resource type="Texture2D" uid="uid://cwhdt8r68ivv3" path="res://Assets/Tileset/Sprites/Tilesets/Walls.png" id="5_ngrix"]
+[ext_resource type="Texture2D" uid="uid://bwvikvdrng4v8" path="res://Assets/Tileset/Sprites/Tilesets/Bridge.png" id="6_ht7wa"]
+[ext_resource type="Texture2D" uid="uid://d33cuffjrsv7t" path="res://Assets/Tileset/Sprites/Tilesets/Bushes.png" id="7_b4p42"]
+[ext_resource type="Texture2D" uid="uid://dr4bdq25jhbba" path="res://Assets/Tileset/Sprites/Tilesets/Construction.png" id="8_xqhi8"]
+[ext_resource type="Texture2D" uid="uid://do6a1bw6uw2ef" path="res://Assets/Tileset/Sprites/Tilesets/ConstructionOverlay.png" id="9_0jyk8"]
+[ext_resource type="Texture2D" uid="uid://wnodq1mio850" path="res://Assets/Tileset/Sprites/Tilesets/Ledges.png" id="10_rltr8"]
+[ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="11_6oqwo"]
+[ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="12_iycx7"]
+[ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="13_ko8b7"]
+[ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="14_st352"]
+[ext_resource type="Script" uid="uid://pbawxhivj8xk" path="res://World/Scripts/gravity.gd" id="15_stvvu"]
+[ext_resource type="PackedScene" uid="uid://bdmby2ymuda1w" path="res://World/Scenes/Elements/Bus.tscn" id="16_goaf6"]
+[ext_resource type="PackedScene" uid="uid://cw2rdvbqi4n54" path="res://World/Scenes/Elements/Sub.tscn" id="17_3vpbx"]
+[ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/Elements/area_2d.tscn" id="18_o353k"]
+[ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="19_tu5if"]
+[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="20_cc3u6"]
+[ext_resource type="Script" uid="uid://ce41r6wl5o0yc" path="res://World/Scripts/load_leves_2.gd" id="21_swp8o"]
+[ext_resource type="PackedScene" uid="uid://g4qy178lttkf" path="res://World/Scenes/Elements/timed_platform_1.tscn" id="22_6p4hl"]
+[ext_resource type="PackedScene" uid="uid://duhe3ktl8tkcn" path="res://World/Scenes/Elements/timed_platform_small.tscn" id="23_imyo4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3ycs7"]
-texture = ExtResource("3_k8c2y")
+texture = ExtResource("3_imyo4")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -75,7 +75,7 @@ texture = ExtResource("3_k8c2y")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xgk37"]
-texture = ExtResource("4_yaxfw")
+texture = ExtResource("4_802pu")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -214,7 +214,7 @@ texture = ExtResource("4_yaxfw")
 15:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f8tmy"]
-texture = ExtResource("5_08c13")
+texture = ExtResource("5_ngrix")
 2:1/0 = 0
 2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 11:1/0 = 0
@@ -541,7 +541,7 @@ texture = ExtResource("5_08c13")
 20:17/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8qgdh"]
-texture = ExtResource("6_bc0c7")
+texture = ExtResource("6_ht7wa")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -572,7 +572,7 @@ texture = ExtResource("6_bc0c7")
 4:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nql6h"]
-texture = ExtResource("7_mlglw")
+texture = ExtResource("7_b4p42")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -622,7 +622,7 @@ texture = ExtResource("7_mlglw")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_78cmh"]
-texture = ExtResource("8_n16en")
+texture = ExtResource("8_xqhi8")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -723,7 +723,7 @@ texture = ExtResource("8_n16en")
 5:5/0/physics_layer_0/polygon_0/one_way = true
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xxno2"]
-texture = ExtResource("9_lp6rd")
+texture = ExtResource("9_0jyk8")
 1:1/0 = 0
 2:1/0 = 0
 4:1/0 = 0
@@ -779,7 +779,7 @@ texture = ExtResource("9_lp6rd")
 5:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tcdxp"]
-texture = ExtResource("10_hvuu1")
+texture = ExtResource("10_rltr8")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -804,7 +804,7 @@ texture = ExtResource("10_hvuu1")
 7:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v4wkt"]
-texture = ExtResource("11_syatf")
+texture = ExtResource("11_6oqwo")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -933,7 +933,7 @@ texture = ExtResource("11_syatf")
 7:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_drrrg"]
-texture = ExtResource("12_i1jfx")
+texture = ExtResource("12_iycx7")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -983,7 +983,7 @@ texture = ExtResource("12_i1jfx")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r50n1"]
-texture = ExtResource("13_fd6nw")
+texture = ExtResource("13_ko8b7")
 11:0/0 = 0
 12:0/0 = 0
 13:0/0 = 0
@@ -1097,17 +1097,17 @@ sources/9 = SubResource("TileSetAtlasSource_r50n1")
 sources/10 = SubResource("TileSetAtlasSource_f8tmy")
 
 [sub_resource type="Theme" id="Theme_fkrcq"]
-default_font = ExtResource("20_8tt2v")
+default_font = ExtResource("20_cc3u6")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qkon5"]
 size = Vector2(16, 48)
 
 [node name="Level_5" type="Node2D"]
 
-[node name="Pause Menu" parent="." instance=ExtResource("1_crh65")]
+[node name="Pause Menu" parent="." instance=ExtResource("1_3qtys")]
 visible = false
 
-[node name="Background" parent="." instance=ExtResource("2_ei0k6")]
+[node name="Background" parent="." instance=ExtResource("2_6p4hl")]
 position = Vector2(-11, 52)
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -1124,7 +1124,7 @@ layer_1/tile_data = PackedInt32Array(-458488, 851973, 1, -458487, 983045, 1, -45
 position = Vector2(9, -343)
 rotation = 3.14159
 up_direction = Vector2(0, 1)
-script = ExtResource("15_fanb5")
+script = ExtResource("15_stvvu")
 
 [node name="Camera2D" type="Camera2D" parent="Echo"]
 position = Vector2(-2, 12)
@@ -1136,26 +1136,26 @@ limit_bottom = 0
 limit_smoothed = true
 position_smoothing_enabled = true
 
-[node name="Bus_1" parent="." instance=ExtResource("16_4grsq")]
+[node name="Bus_1" parent="." instance=ExtResource("16_goaf6")]
 position = Vector2(1268, -364)
 rotation = 3.14159
 scale = Vector2(-1, 1)
 
-[node name="Bus_2" parent="." instance=ExtResource("16_4grsq")]
+[node name="Bus_2" parent="." instance=ExtResource("16_goaf6")]
 position = Vector2(2900, -364)
 rotation = -3.14159
 scale = Vector2(-1, 1)
 
-[node name="Sub_1" parent="." instance=ExtResource("17_bqiyf")]
+[node name="Sub_1" parent="." instance=ExtResource("17_3vpbx")]
 position = Vector2(4108, -364)
 rotation = -3.14159
 scale = Vector2(-1, 1)
 
-[node name="Area2D" parent="." instance=ExtResource("18_c17gd")]
+[node name="Area2D" parent="." instance=ExtResource("18_o353k")]
 position = Vector2(0, -395)
 rotation = 3.14159
 
-[node name="Hud" parent="." instance=ExtResource("19_a2sqj")]
+[node name="Hud" parent="." instance=ExtResource("19_tu5if")]
 
 [node name="Label2" type="Label" parent="Hud"]
 offset_left = 740.0
@@ -1166,90 +1166,86 @@ text = "Level 5 - Anti-Gravity Street"
 metadata/_edit_use_anchors_ = true
 
 [node name="Load_leves2" type="Area2D" parent="."]
-script = ExtResource("21_n8ni6")
+script = ExtResource("21_swp8o")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Load_leves2"]
 position = Vector2(4664, -40)
 shape = SubResource("RectangleShape2D_qkon5")
 
-[node name="SmallTimed" type="Node2D" parent="."]
-
-[node name="TimedSmall" parent="SmallTimed" instance=ExtResource("22_xxr3f")]
-position = Vector2(2065, -241)
-scale = Vector2(1, -1)
-
-[node name="Timer" type="Timer" parent="SmallTimed/TimedSmall"]
-autostart = true
-
-[node name="TimedSmall2" parent="SmallTimed" instance=ExtResource("22_xxr3f")]
-visible = false
-position = Vector2(2225, -294)
-scale = Vector2(1, -1)
-
-[node name="Timer" type="Timer" parent="SmallTimed/TimedSmall2"]
-autostart = true
-
-[node name="TimedSmall3" parent="SmallTimed" instance=ExtResource("22_xxr3f")]
-position = Vector2(2385, -230)
-scale = Vector2(1, -1)
-
-[node name="Timer" type="Timer" parent="SmallTimed/TimedSmall3"]
-autostart = true
-
-[node name="TimedSmall4" parent="SmallTimed" instance=ExtResource("22_xxr3f")]
-visible = false
-position = Vector2(2545, -294)
-scale = Vector2(1, -1)
-
-[node name="Timer" type="Timer" parent="SmallTimed/TimedSmall4"]
-autostart = true
-
-[node name="TimedSmall5" parent="SmallTimed" instance=ExtResource("22_xxr3f")]
-position = Vector2(2705, -230)
-scale = Vector2(1, -1)
-
-[node name="Timer" type="Timer" parent="SmallTimed/TimedSmall5"]
-autostart = true
-
-[node name="NormalTimed" type="Node2D" parent="."]
-
-[node name="TimedPlatform1" parent="NormalTimed" instance=ExtResource("23_31fw2")]
+[node name="TimedPlatform1" parent="." instance=ExtResource("22_6p4hl")]
 position = Vector2(433, -326)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="NormalTimed/TimedPlatform1"]
+[node name="Timer" type="Timer" parent="TimedPlatform1"]
 autostart = true
 
-[node name="TimedPlatform2" parent="NormalTimed" instance=ExtResource("23_31fw2")]
+[node name="TimedPlatform2" parent="." instance=ExtResource("22_6p4hl")]
 visible = false
 position = Vector2(610, -245)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="NormalTimed/TimedPlatform2"]
+[node name="Timer" type="Timer" parent="TimedPlatform2"]
 autostart = true
 
-[node name="TimedPlatform3" parent="NormalTimed" instance=ExtResource("23_31fw2")]
+[node name="TimedPlatform3" parent="." instance=ExtResource("22_6p4hl")]
 position = Vector2(801, -325)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="NormalTimed/TimedPlatform3"]
+[node name="Timer" type="Timer" parent="TimedPlatform3"]
 autostart = true
 
-[node name="TimedPlatform4" parent="NormalTimed" instance=ExtResource("23_31fw2")]
+[node name="TimedPlatform4" parent="." instance=ExtResource("22_6p4hl")]
 visible = false
 position = Vector2(977, -246)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="NormalTimed/TimedPlatform4"]
+[node name="Timer" type="Timer" parent="TimedPlatform4"]
+autostart = true
+
+[node name="TimedSmall" parent="." instance=ExtResource("23_imyo4")]
+position = Vector2(2065, -241)
+scale = Vector2(1, -1)
+
+[node name="Timer" type="Timer" parent="TimedSmall"]
+autostart = true
+
+[node name="TimedSmall2" parent="." instance=ExtResource("23_imyo4")]
+visible = false
+position = Vector2(2225, -294)
+scale = Vector2(1, -1)
+
+[node name="Timer" type="Timer" parent="TimedSmall2"]
+autostart = true
+
+[node name="TimedSmall3" parent="." instance=ExtResource("23_imyo4")]
+position = Vector2(2385, -230)
+scale = Vector2(1, -1)
+
+[node name="Timer" type="Timer" parent="TimedSmall3"]
+autostart = true
+
+[node name="TimedSmall4" parent="." instance=ExtResource("23_imyo4")]
+visible = false
+position = Vector2(2545, -294)
+scale = Vector2(1, -1)
+
+[node name="Timer" type="Timer" parent="TimedSmall4"]
+autostart = true
+
+[node name="TimedSmall5" parent="." instance=ExtResource("23_imyo4")]
+position = Vector2(2705, -230)
+scale = Vector2(1, -1)
+
+[node name="Timer" type="Timer" parent="TimedSmall5"]
 autostart = true
 
 [connection signal="body_entered" from="Load_leves2" to="Load_leves2" method="_on_body_entered"]
-[connection signal="timeout" from="SmallTimed/TimedSmall/Timer" to="SmallTimed/TimedSmall" method="_on_timer_timeout"]
-[connection signal="timeout" from="SmallTimed/TimedSmall2/Timer" to="SmallTimed/TimedSmall2" method="_on_timer_timeout"]
-[connection signal="timeout" from="SmallTimed/TimedSmall3/Timer" to="SmallTimed/TimedSmall3" method="_on_timer_timeout"]
-[connection signal="timeout" from="SmallTimed/TimedSmall4/Timer" to="SmallTimed/TimedSmall4" method="_on_timer_timeout"]
-[connection signal="timeout" from="SmallTimed/TimedSmall5/Timer" to="SmallTimed/TimedSmall5" method="_on_timer_timeout"]
-[connection signal="timeout" from="NormalTimed/TimedPlatform1/Timer" to="NormalTimed/TimedPlatform1" method="_on_timer_timeout"]
-[connection signal="timeout" from="NormalTimed/TimedPlatform2/Timer" to="NormalTimed/TimedPlatform2" method="_on_timer_timeout"]
-[connection signal="timeout" from="NormalTimed/TimedPlatform3/Timer" to="NormalTimed/TimedPlatform3" method="_on_timer_timeout"]
-[connection signal="timeout" from="NormalTimed/TimedPlatform4/Timer" to="NormalTimed/TimedPlatform4" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedPlatform1/Timer" to="TimedPlatform1" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedPlatform2/Timer" to="TimedPlatform2" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedPlatform3/Timer" to="TimedPlatform3" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedPlatform4/Timer" to="TimedPlatform4" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall/Timer" to="TimedSmall" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall2/Timer" to="TimedSmall2" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall3/Timer" to="TimedSmall3" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall4/Timer" to="TimedSmall4" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall5/Timer" to="TimedSmall5" method="_on_timer_timeout"]
