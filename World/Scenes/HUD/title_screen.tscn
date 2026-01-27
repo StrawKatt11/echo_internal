@@ -1,7 +1,7 @@
 [gd_scene load_steps=57 format=3 uid="uid://bo7kx0r6ufee1"]
 
 [ext_resource type="Script" uid="uid://ddtdlbtvtsrf" path="res://World/Scripts/play.gd" id="1_kkp3d"]
-[ext_resource type="PackedScene" uid="uid://c6ncjovisjcdp" path="res://World/Scenes/transition.tscn" id="2_byqwt"]
+[ext_resource type="PackedScene" uid="uid://c6ncjovisjcdp" path="res://World/Scenes/HUD/transition.tscn" id="2_byqwt"]
 [ext_resource type="Texture2D" uid="uid://dtxlsof4iqsxh" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_Sky.png" id="3_883x3"]
 [ext_resource type="Texture2D" uid="uid://cjqxf8h7pk1nl" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsBack.png" id="4_um6n2"]
 [ext_resource type="Texture2D" uid="uid://dl2rpked1lru7" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsFar.png" id="5_el083"]
@@ -2682,23 +2682,25 @@ script = ExtResource("1_kkp3d")
 
 [node name="Transition" parent="." instance=ExtResource("2_byqwt")]
 
-[node name="BackgroundsSky" type="Sprite2D" parent="."]
+[node name="BG" type="Node2D" parent="."]
+
+[node name="BackgroundsSky" type="Sprite2D" parent="BG"]
 position = Vector2(528, 274)
 texture = ExtResource("3_883x3")
 
-[node name="BackgroundsBuildingsBack" type="Sprite2D" parent="."]
+[node name="BackgroundsBuildingsBack" type="Sprite2D" parent="BG"]
 position = Vector2(528, 274)
 texture = ExtResource("4_um6n2")
 
-[node name="BackgroundsBuildingsFar" type="Sprite2D" parent="."]
+[node name="BackgroundsBuildingsFar" type="Sprite2D" parent="BG"]
 position = Vector2(528, 274)
 texture = ExtResource("5_el083")
 
-[node name="BackgroundsBuildingsMid" type="Sprite2D" parent="."]
+[node name="BackgroundsBuildingsMid" type="Sprite2D" parent="BG"]
 position = Vector2(528, 274)
 texture = ExtResource("6_ls4qr")
 
-[node name="BackgroundsBuildingsClose" type="Sprite2D" parent="."]
+[node name="BackgroundsBuildingsClose" type="Sprite2D" parent="BG"]
 position = Vector2(528, 274)
 texture = ExtResource("7_xb2jh")
 
@@ -2725,8 +2727,9 @@ sprite_frames = SubResource("SpriteFrames_c566c")
 autoplay = "default"
 frame_progress = 0.91945
 
-[node name="Button" type="Button" parent="."]
-layout_mode = 1
+[node name="Main Menu" type="Node2D" parent="."]
+
+[node name="Play" type="Button" parent="Main Menu"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -2745,8 +2748,7 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
 theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
 text = "Play"
 
-[node name="Button2" type="Button" parent="."]
-layout_mode = 1
+[node name="Levels" type="Button" parent="Main Menu"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -2763,8 +2765,7 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
 theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
 text = "Levels"
 
-[node name="Button3" type="Button" parent="."]
-layout_mode = 1
+[node name="Quit" type="Button" parent="Main Menu"]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -2783,8 +2784,7 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
 theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
 text = "Quit"
 
-[node name="Button4" type="Button" parent="."]
-layout_mode = 1
+[node name="Skins" type="Button" parent="Main Menu"]
 offset_left = 143.0
 offset_top = 370.0
 offset_right = 259.0
@@ -2796,9 +2796,10 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
 theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
 text = "Skins"
 
-[node name="Button7" type="Button" parent="."]
+[node name="Skin Selection" type="Node2D" parent="."]
+
+[node name="Back" type="Button" parent="Skin Selection"]
 visible = false
-layout_mode = 1
 offset_left = 143.0
 offset_top = 370.0
 offset_right = 259.0
@@ -2810,43 +2811,60 @@ theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
 theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
 text = "Back"
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="Skin Selection"]
 position = Vector2(206, 340)
 zoom = Vector2(2.8, 2.8)
 position_smoothing_enabled = true
 
-[node name="Button5" type="Button" parent="."]
+[node name="Right" type="Button" parent="Skin Selection"]
 visible = false
-layout_mode = 0
 offset_left = 248.0
 offset_top = 326.0
 offset_right = 272.0
 offset_bottom = 345.0
 theme_override_styles/normal = SubResource("StyleBoxTexture_02c3c")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button5"]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Skin Selection/Right"]
 position = Vector2(9.50001, 10)
 scale = Vector2(3.16667, 2.22223)
 sprite_frames = SubResource("SpriteFrames_v357y")
 autoplay = "default"
 frame_progress = 0.903989
 
-[node name="Button6" type="Button" parent="."]
+[node name="Left" type="Button" parent="Skin Selection"]
 visible = false
-layout_mode = 0
 offset_left = 121.0
 offset_top = 326.0
 offset_right = 145.0
 offset_bottom = 345.0
 theme_override_styles/normal = SubResource("StyleBoxTexture_02c3c")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button6"]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Skin Selection/Left"]
 position = Vector2(9.50001, 10)
 rotation = -3.14159
 scale = Vector2(3.16667, 2.22223)
 sprite_frames = SubResource("SpriteFrames_v357y")
 autoplay = "default"
 frame_progress = 0.93083
+
+[node name="Level Selection" type="Node2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="Level Selection"]
+position = Vector2(784, 288)
+zoom = Vector2(2.2, 2.2)
+
+[node name="Back" type="Button" parent="Level Selection"]
+visible = false
+offset_left = 555.0
+offset_top = 375.0
+offset_right = 671.0
+offset_bottom = 407.0
+theme_override_fonts/font = ExtResource("25_8c7me")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/hover = SubResource("StyleBoxTexture_f2is8")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_46772")
+theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
+text = "Back"
 
 [node name="Title" type="Sprite2D" parent="."]
 position = Vector2(840, 77)
@@ -2882,10 +2900,11 @@ D,B,Z Csapat"
 horizontal_alignment = 2
 
 [connection signal="transitioned" from="Transition" to="." method="_on_transition_transitioned"]
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
-[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
-[connection signal="pressed" from="Button4" to="." method="_on_button_4_pressed"]
-[connection signal="pressed" from="Button7" to="." method="_on_button_7_pressed"]
-[connection signal="pressed" from="Button5" to="." method="_on_button_5_pressed"]
-[connection signal="pressed" from="Button6" to="." method="_on_button_6_pressed"]
+[connection signal="pressed" from="Main Menu/Play" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Main Menu/Levels" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Main Menu/Quit" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="Main Menu/Skins" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="Skin Selection/Back" to="." method="_on_button_7_pressed"]
+[connection signal="pressed" from="Skin Selection/Right" to="." method="_on_button_5_pressed"]
+[connection signal="pressed" from="Skin Selection/Left" to="." method="_on_button_6_pressed"]
+[connection signal="pressed" from="Level Selection/Back" to="." method="_on_back_pressed"]

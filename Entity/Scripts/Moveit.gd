@@ -9,11 +9,11 @@ var startposition = position
 @onready var sprite: Sprite2D = $Sprite2D
 @onready var state_machine: CharacterStateMachine = $CharacterStateMachine
 @onready var animate: AnimationPlayer = $AnimationPlayer
+@onready var pos = global_position
 
 func _ready():
 	tree.active = true
 	animate.play()
-	var startposition = position
 
 func _physics_process(delta: float):
 
@@ -29,14 +29,18 @@ func _physics_process(delta: float):
 	move_and_slide()
 	update_animation()
 	update_facing_direction()
+	skin_change()
 
 func update_animation():
 	tree.set("parameters/move/blend_position", velocity.x)
 
 func die():
-	global_position = startposition
+	global_position = pos
 func update_facing_direction():
 	if velocity.x > 0:
 		sprite.flip_h=false
 	elif velocity.x < 0:
 		sprite.flip_h=true
+
+func skin_change():
+	modulate = skin_manager.skins[skin_manager.selected_skin_index-1]
