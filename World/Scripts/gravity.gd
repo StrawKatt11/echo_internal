@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 @export var SPEED = 300.0
 const JUMP_VELOCITY = 400.0
-var startposition = position
+@onready var startposition = global_position
 
 @onready var skin_manager = get_node("/root/Skins")
 @onready var tree: AnimationTree = $AnimationTree
@@ -30,6 +30,7 @@ func _physics_process(delta: float):
 	move_and_slide()
 	update_animation()
 	update_facing_direction()
+	skin_change()
 
 func update_animation():
 	tree.set("parameters/move/blend_position", velocity.x)
@@ -41,3 +42,6 @@ func update_facing_direction():
 		sprite.flip_h=true
 	elif velocity.x < 0:
 		sprite.flip_h=false
+
+func skin_change():
+	modulate = skin_manager.skins[skin_manager.selected_skin_index-1]

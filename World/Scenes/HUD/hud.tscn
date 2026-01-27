@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cikejqxhk1f36"]
 
-[ext_resource type="PackedScene" uid="uid://cgtc3s18as54p" path="res://Scenes/stopwatch.tscn" id="1_niuxk"]
+[ext_resource type="PackedScene" uid="uid://cgtc3s18as54p" path="res://World/Scenes/HUD/stopwatch.tscn" id="1_niuxk"]
 
 [node name="Hud" type="CanvasLayer"]
 

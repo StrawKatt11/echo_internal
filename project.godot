@@ -18,7 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Skins="*res://World/Scripts/skins.gd"
-Transition="*res://World/Scenes/transition.tscn"
+Transition="*res://World/Scenes/HUD/transition.tscn"
 
 [display]
 
