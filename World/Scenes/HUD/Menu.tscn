@@ -2689,6 +2689,7 @@ position = Vector2(528, 274)
 texture = ExtResource("3_npt57")
 
 [node name="BackgroundsBuildingsBack" type="Sprite2D" parent="BG"]
+visible = false
 position = Vector2(528, 274)
 texture = ExtResource("4_2g65i")
 
