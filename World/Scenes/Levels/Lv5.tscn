@@ -1172,80 +1172,84 @@ script = ExtResource("21_bkijh")
 position = Vector2(4664, -40)
 shape = SubResource("RectangleShape2D_qkon5")
 
-[node name="TimedPlatform1" parent="." instance=ExtResource("22_64l1u")]
+[node name="TimedNormal" type="Node2D" parent="."]
+
+[node name="TimedPlatform1" parent="TimedNormal" instance=ExtResource("22_64l1u")]
 position = Vector2(433, -326)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="TimedPlatform1"]
+[node name="Timer" type="Timer" parent="TimedNormal/TimedPlatform1"]
 autostart = true
 
-[node name="TimedPlatform2" parent="." instance=ExtResource("22_64l1u")]
+[node name="TimedPlatform2" parent="TimedNormal" instance=ExtResource("22_64l1u")]
 visible = false
 position = Vector2(610, -245)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="TimedPlatform2"]
+[node name="Timer" type="Timer" parent="TimedNormal/TimedPlatform2"]
 autostart = true
 
-[node name="TimedPlatform3" parent="." instance=ExtResource("22_64l1u")]
+[node name="TimedPlatform3" parent="TimedNormal" instance=ExtResource("22_64l1u")]
 position = Vector2(801, -325)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="TimedPlatform3"]
+[node name="Timer" type="Timer" parent="TimedNormal/TimedPlatform3"]
 autostart = true
 
-[node name="TimedPlatform4" parent="." instance=ExtResource("22_64l1u")]
+[node name="TimedPlatform4" parent="TimedNormal" instance=ExtResource("22_64l1u")]
 visible = false
 position = Vector2(977, -246)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="TimedPlatform4"]
+[node name="Timer" type="Timer" parent="TimedNormal/TimedPlatform4"]
 autostart = true
 
-[node name="TimedSmall" parent="." instance=ExtResource("23_k2xh6")]
+[node name="TimedSmall" type="Node2D" parent="."]
+
+[node name="TimedSmall" parent="TimedSmall" instance=ExtResource("23_k2xh6")]
 position = Vector2(2065, -241)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="TimedSmall"]
+[node name="Timer" type="Timer" parent="TimedSmall/TimedSmall"]
 autostart = true
 
-[node name="TimedSmall2" parent="." instance=ExtResource("23_k2xh6")]
+[node name="TimedSmall2" parent="TimedSmall" instance=ExtResource("23_k2xh6")]
 visible = false
 position = Vector2(2225, -294)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="TimedSmall2"]
+[node name="Timer" type="Timer" parent="TimedSmall/TimedSmall2"]
 autostart = true
 
-[node name="TimedSmall3" parent="." instance=ExtResource("23_k2xh6")]
+[node name="TimedSmall3" parent="TimedSmall" instance=ExtResource("23_k2xh6")]
 position = Vector2(2385, -230)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="TimedSmall3"]
+[node name="Timer" type="Timer" parent="TimedSmall/TimedSmall3"]
 autostart = true
 
-[node name="TimedSmall4" parent="." instance=ExtResource("23_k2xh6")]
+[node name="TimedSmall4" parent="TimedSmall" instance=ExtResource("23_k2xh6")]
 visible = false
 position = Vector2(2545, -294)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="TimedSmall4"]
+[node name="Timer" type="Timer" parent="TimedSmall/TimedSmall4"]
 autostart = true
 
-[node name="TimedSmall5" parent="." instance=ExtResource("23_k2xh6")]
+[node name="TimedSmall5" parent="TimedSmall" instance=ExtResource("23_k2xh6")]
 position = Vector2(2705, -230)
 scale = Vector2(1, -1)
 
-[node name="Timer" type="Timer" parent="TimedSmall5"]
+[node name="Timer" type="Timer" parent="TimedSmall/TimedSmall5"]
 autostart = true
 
 [connection signal="body_entered" from="Load_leves2" to="Load_leves2" method="_on_body_entered"]
-[connection signal="timeout" from="TimedPlatform1/Timer" to="TimedPlatform1" method="_on_timer_timeout"]
-[connection signal="timeout" from="TimedPlatform2/Timer" to="TimedPlatform2" method="_on_timer_timeout"]
-[connection signal="timeout" from="TimedPlatform3/Timer" to="TimedPlatform3" method="_on_timer_timeout"]
-[connection signal="timeout" from="TimedPlatform4/Timer" to="TimedPlatform4" method="_on_timer_timeout"]
-[connection signal="timeout" from="TimedSmall/Timer" to="TimedSmall" method="_on_timer_timeout"]
-[connection signal="timeout" from="TimedSmall2/Timer" to="TimedSmall2" method="_on_timer_timeout"]
-[connection signal="timeout" from="TimedSmall3/Timer" to="TimedSmall3" method="_on_timer_timeout"]
-[connection signal="timeout" from="TimedSmall4/Timer" to="TimedSmall4" method="_on_timer_timeout"]
-[connection signal="timeout" from="TimedSmall5/Timer" to="TimedSmall5" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedNormal/TimedPlatform1/Timer" to="TimedNormal/TimedPlatform1" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedNormal/TimedPlatform2/Timer" to="TimedNormal/TimedPlatform2" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedNormal/TimedPlatform3/Timer" to="TimedNormal/TimedPlatform3" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedNormal/TimedPlatform4/Timer" to="TimedNormal/TimedPlatform4" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall/TimedSmall/Timer" to="TimedSmall/TimedSmall" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall/TimedSmall2/Timer" to="TimedSmall/TimedSmall2" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall/TimedSmall3/Timer" to="TimedSmall/TimedSmall3" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall/TimedSmall4/Timer" to="TimedSmall/TimedSmall4" method="_on_timer_timeout"]
+[connection signal="timeout" from="TimedSmall/TimedSmall5/Timer" to="TimedSmall/TimedSmall5" method="_on_timer_timeout"]
