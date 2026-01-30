@@ -9,7 +9,7 @@ func _process(delta: float) -> void:
 	pass
 
 func _on_resume_pressed() -> void:
-	pass
+	Engine.time_scale = 1
 
 
 func _on_restart_pressed() -> void:

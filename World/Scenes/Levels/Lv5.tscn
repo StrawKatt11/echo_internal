@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=3 uid="uid://c77nk2gh7gnbh"]
+[gd_scene load_steps=38 format=3 uid="uid://c77nk2gh7gnbh"]
 
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_wip5j"]
 [ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Elements/Background.tscn" id="2_amvi8"]
@@ -21,6 +21,7 @@
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="19_iyjtm"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="20_ae03j"]
 [ext_resource type="PackedScene" uid="uid://g4qy178lttkf" path="res://World/Scenes/Elements/timed_platform_1.tscn" id="22_64l1u"]
+[ext_resource type="Script" uid="uid://0tjxvhxlbkto" path="res://World/Scripts/timed.gd" id="22_wip5j"]
 [ext_resource type="PackedScene" uid="uid://duhe3ktl8tkcn" path="res://World/Scenes/Elements/timed_platform_small.tscn" id="23_k2xh6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3ycs7"]
@@ -1177,6 +1178,7 @@ position = Vector2(0.000709534, 43.0003)
 [node name="TimedPlatform1" parent="TimedNormal" instance=ExtResource("22_64l1u")]
 position = Vector2(433, -326)
 scale = Vector2(1, -1)
+script = ExtResource("22_wip5j")
 
 [node name="Timer" type="Timer" parent="TimedNormal/TimedPlatform1"]
 autostart = true
@@ -1185,6 +1187,7 @@ autostart = true
 visible = false
 position = Vector2(610, -245)
 scale = Vector2(1, -1)
+script = ExtResource("22_wip5j")
 
 [node name="Timer" type="Timer" parent="TimedNormal/TimedPlatform2"]
 autostart = true
@@ -1192,6 +1195,7 @@ autostart = true
 [node name="TimedPlatform3" parent="TimedNormal" instance=ExtResource("22_64l1u")]
 position = Vector2(801, -325)
 scale = Vector2(1, -1)
+script = ExtResource("22_wip5j")
 
 [node name="Timer" type="Timer" parent="TimedNormal/TimedPlatform3"]
 autostart = true
@@ -1200,6 +1204,7 @@ autostart = true
 visible = false
 position = Vector2(977, -246)
 scale = Vector2(1, -1)
+script = ExtResource("22_wip5j")
 
 [node name="Timer" type="Timer" parent="TimedNormal/TimedPlatform4"]
 autostart = true
@@ -1210,6 +1215,7 @@ position = Vector2(0.000709534, 43.0003)
 [node name="TimedSmall" parent="TimedSmall" instance=ExtResource("23_k2xh6")]
 position = Vector2(2065, -241)
 scale = Vector2(1, -1)
+script = ExtResource("22_wip5j")
 
 [node name="Timer" type="Timer" parent="TimedSmall/TimedSmall"]
 autostart = true
@@ -1218,6 +1224,7 @@ autostart = true
 visible = false
 position = Vector2(2225, -294)
 scale = Vector2(1, -1)
+script = ExtResource("22_wip5j")
 
 [node name="Timer" type="Timer" parent="TimedSmall/TimedSmall2"]
 autostart = true
@@ -1225,6 +1232,7 @@ autostart = true
 [node name="TimedSmall3" parent="TimedSmall" instance=ExtResource("23_k2xh6")]
 position = Vector2(2385, -230)
 scale = Vector2(1, -1)
+script = ExtResource("22_wip5j")
 
 [node name="Timer" type="Timer" parent="TimedSmall/TimedSmall3"]
 autostart = true
@@ -1233,6 +1241,7 @@ autostart = true
 visible = false
 position = Vector2(2545, -294)
 scale = Vector2(1, -1)
+script = ExtResource("22_wip5j")
 
 [node name="Timer" type="Timer" parent="TimedSmall/TimedSmall4"]
 autostart = true
@@ -1240,6 +1249,7 @@ autostart = true
 [node name="TimedSmall5" parent="TimedSmall" instance=ExtResource("23_k2xh6")]
 position = Vector2(2705, -230)
 scale = Vector2(1, -1)
+script = ExtResource("22_wip5j")
 
 [node name="Timer" type="Timer" parent="TimedSmall/TimedSmall5"]
 autostart = true
