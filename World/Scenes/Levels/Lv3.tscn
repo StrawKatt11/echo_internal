@@ -2385,12 +2385,12 @@ theme = SubResource("Theme_m0ax1")
 text = "Level 3 - Rooftop"
 metadata/_edit_use_anchors_ = true
 
-[node name="Area2D2" type="Area2D" parent="."]
+[node name="Level_Load" type="Area2D" parent="."]
 position = Vector2(11535, -97)
 script = ExtResource("20_n5sp5")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Level_Load"]
 position = Vector2(11, 3.25)
 shape = SubResource("RectangleShape2D_twfjo")
 
-[connection signal="body_entered" from="Area2D2" to="Area2D2" method="_on_body_entered"]
+[connection signal="body_entered" from="Level_Load" to="Level_Load" method="_on_body_entered"]

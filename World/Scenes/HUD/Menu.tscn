@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=3 uid="uid://bo7kx0r6ufee1"]
+[gd_scene load_steps=68 format=3 uid="uid://bo7kx0r6ufee1"]
 
 [ext_resource type="Script" uid="uid://ddtdlbtvtsrf" path="res://World/Scripts/play.gd" id="1_rjo6q"]
 [ext_resource type="PackedScene" uid="uid://c6ncjovisjcdp" path="res://World/Scenes/HUD/transition.tscn" id="2_ts7ko"]
@@ -29,7 +29,12 @@
 [ext_resource type="Texture2D" uid="uid://bx53hj11ijlmv" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Pressed.png" id="27_gvddr"]
 [ext_resource type="Texture2D" uid="uid://ckrnbahbcdy10" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Unpressed.png" id="28_83dl4"]
 [ext_resource type="Texture2D" uid="uid://j0c2omx0wu0n" path="res://Assets/Pixel UI & HUD/Sprites/Selectors/ChevronRight_Hover.png" id="29_n62x4"]
+[ext_resource type="Texture2D" uid="uid://b07kg5ef1l5rf" path="res://Assets/CustomSprites/Kép (1).png" id="30_e3nah"]
 [ext_resource type="Texture2D" uid="uid://ckofs3yv768d1" path="res://Assets/Pixel UI & HUD/Sprites/Banners/Blue/TitleBannerDecoratorB.png" id="30_woonk"]
+[ext_resource type="Texture2D" uid="uid://c1ouj6hu8s386" path="res://Assets/CustomSprites/Kép.png" id="31_y0nrh"]
+[ext_resource type="Texture2D" uid="uid://d0o2sbppa0pg6" path="res://Assets/CustomSprites/Kép (2).png" id="32_2jqy5"]
+[ext_resource type="Texture2D" uid="uid://dinj1aut6jsgk" path="res://Assets/CustomSprites/Kép (3).png" id="33_wxpfm"]
+[ext_resource type="Texture2D" uid="uid://dw5t7xs6yflk7" path="res://Assets/CustomSprites/Kép (4).png" id="34_4uld0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jt01f"]
 texture = ExtResource("8_2jqy5")
@@ -2665,6 +2670,25 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f0lly"]
+texture = ExtResource("30_e3nah")
+
+[sub_resource type="Theme" id="Theme_e3nah"]
+default_font = ExtResource("25_gmesc")
+default_font_size = 8
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_u8v3q"]
+texture = ExtResource("31_y0nrh")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qh54t"]
+texture = ExtResource("32_2jqy5")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vjwd0"]
+texture = ExtResource("33_wxpfm")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l2f71"]
+texture = ExtResource("34_4uld0")
+
 [sub_resource type="Theme" id="Theme_jsrd8"]
 default_font = ExtResource("25_gmesc")
 default_font_size = 13
@@ -2799,7 +2823,6 @@ text = "Skins"
 [node name="Skin Selection" type="Node2D" parent="."]
 
 [node name="Back" type="Button" parent="Skin Selection"]
-visible = false
 offset_left = 143.0
 offset_top = 370.0
 offset_right = 259.0
@@ -2817,7 +2840,6 @@ zoom = Vector2(2.8, 2.8)
 position_smoothing_enabled = true
 
 [node name="Right" type="Button" parent="Skin Selection"]
-visible = false
 offset_left = 248.0
 offset_top = 326.0
 offset_right = 272.0
@@ -2832,7 +2854,6 @@ autoplay = "default"
 frame_progress = 0.903989
 
 [node name="Left" type="Button" parent="Skin Selection"]
-visible = false
 offset_left = 121.0
 offset_top = 326.0
 offset_right = 145.0
@@ -2854,7 +2875,6 @@ position = Vector2(784, 288)
 zoom = Vector2(2.2, 2.2)
 
 [node name="Back" type="Button" parent="Level Selection"]
-visible = false
 offset_left = 555.0
 offset_top = 375.0
 offset_right = 671.0
@@ -2867,24 +2887,84 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
 text = "Back"
 
 [node name="Level 1" type="Button" parent="Level Selection"]
-offset_right = 8.0
-offset_bottom = 8.0
+offset_left = 555.0
+offset_top = 172.0
+offset_right = 697.0
+offset_bottom = 240.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_f0lly")
+
+[node name="Streets" type="Label" parent="Level Selection"]
+offset_left = 556.0
+offset_top = 164.0
+offset_right = 722.0
+offset_bottom = 185.0
+theme = SubResource("Theme_e3nah")
+text = "Street"
+metadata/_edit_use_anchors_ = true
 
 [node name="Level 2" type="Button" parent="Level Selection"]
-offset_right = 8.0
-offset_bottom = 8.0
+offset_left = 555.0
+offset_top = 268.0
+offset_right = 697.0
+offset_bottom = 335.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_u8v3q")
+
+[node name="Skyscraper" type="Label" parent="Level Selection"]
+offset_left = 555.0
+offset_top = 259.0
+offset_right = 721.0
+offset_bottom = 280.0
+theme = SubResource("Theme_e3nah")
+text = "Skyscraper"
+metadata/_edit_use_anchors_ = true
 
 [node name="Level 3" type="Button" parent="Level Selection"]
-offset_right = 8.0
-offset_bottom = 8.0
+offset_left = 717.0
+offset_top = 224.0
+offset_right = 859.0
+offset_bottom = 291.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_qh54t")
+
+[node name="Rooftop" type="Label" parent="Level Selection"]
+offset_left = 719.0
+offset_top = 216.0
+offset_right = 885.0
+offset_bottom = 237.0
+theme = SubResource("Theme_e3nah")
+text = "Rooftop"
+metadata/_edit_use_anchors_ = true
 
 [node name="Level 4" type="Button" parent="Level Selection"]
-offset_right = 8.0
-offset_bottom = 8.0
+offset_left = 874.0
+offset_top = 172.0
+offset_right = 1016.0
+offset_bottom = 240.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_vjwd0")
+
+[node name="Anti-Gravity Skyscraper" type="Label" parent="Level Selection"]
+offset_left = 875.0
+offset_top = 164.0
+offset_right = 1041.0
+offset_bottom = 185.0
+theme = SubResource("Theme_e3nah")
+text = "Anit-Gravity Skyscraper"
+metadata/_edit_use_anchors_ = true
 
 [node name="Level 5" type="Button" parent="Level Selection"]
-offset_right = 8.0
-offset_bottom = 8.0
+offset_left = 874.0
+offset_top = 267.0
+offset_right = 1016.0
+offset_bottom = 335.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_l2f71")
+
+[node name="Anti-Gravity Street" type="Label" parent="Level Selection"]
+offset_left = 875.0
+offset_top = 259.0
+offset_right = 1041.0
+offset_bottom = 280.0
+theme = SubResource("Theme_e3nah")
+text = "Anit-Gravity Street"
+metadata/_edit_use_anchors_ = true
 
 [node name="Title" type="Sprite2D" parent="."]
 position = Vector2(840, 77)
@@ -2928,3 +3008,8 @@ horizontal_alignment = 2
 [connection signal="pressed" from="Skin Selection/Right" to="." method="_on_button_5_pressed"]
 [connection signal="pressed" from="Skin Selection/Left" to="." method="_on_button_6_pressed"]
 [connection signal="pressed" from="Level Selection/Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Level Selection/Level 1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="Level Selection/Level 2" to="." method="_on_level_2_pressed"]
+[connection signal="pressed" from="Level Selection/Level 3" to="." method="_on_level_3_pressed"]
+[connection signal="pressed" from="Level Selection/Level 4" to="." method="_on_level_4_pressed"]
+[connection signal="pressed" from="Level Selection/Level 5" to="." method="_on_level_5_pressed"]

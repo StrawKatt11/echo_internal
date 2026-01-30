@@ -10,5 +10,5 @@ func _on_timer_timeout() -> void:
 		collision_mask = 0
 	else:
 		show()
-		collision_layer = 1
-		collision_mask = 1
+		collision_layer = 4
+		collision_mask = 0
