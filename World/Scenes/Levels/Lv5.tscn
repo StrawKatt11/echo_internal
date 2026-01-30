@@ -1,31 +1,31 @@
 [gd_scene load_steps=38 format=3 uid="uid://c77nk2gh7gnbh"]
 
-[ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_3qtys"]
-[ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Elements/Background.tscn" id="2_6p4hl"]
-[ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="3_imyo4"]
-[ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="4_802pu"]
-[ext_resource type="Texture2D" uid="uid://cwhdt8r68ivv3" path="res://Assets/Tileset/Sprites/Tilesets/Walls.png" id="5_ngrix"]
-[ext_resource type="Texture2D" uid="uid://bwvikvdrng4v8" path="res://Assets/Tileset/Sprites/Tilesets/Bridge.png" id="6_ht7wa"]
-[ext_resource type="Texture2D" uid="uid://d33cuffjrsv7t" path="res://Assets/Tileset/Sprites/Tilesets/Bushes.png" id="7_b4p42"]
-[ext_resource type="Texture2D" uid="uid://dr4bdq25jhbba" path="res://Assets/Tileset/Sprites/Tilesets/Construction.png" id="8_xqhi8"]
-[ext_resource type="Texture2D" uid="uid://do6a1bw6uw2ef" path="res://Assets/Tileset/Sprites/Tilesets/ConstructionOverlay.png" id="9_0jyk8"]
-[ext_resource type="Texture2D" uid="uid://wnodq1mio850" path="res://Assets/Tileset/Sprites/Tilesets/Ledges.png" id="10_rltr8"]
-[ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="11_6oqwo"]
-[ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="12_iycx7"]
-[ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="13_ko8b7"]
-[ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="14_st352"]
-[ext_resource type="Script" uid="uid://pbawxhivj8xk" path="res://World/Scripts/gravity.gd" id="15_stvvu"]
-[ext_resource type="PackedScene" uid="uid://bdmby2ymuda1w" path="res://World/Scenes/Elements/Bus.tscn" id="16_goaf6"]
-[ext_resource type="PackedScene" uid="uid://cw2rdvbqi4n54" path="res://World/Scenes/Elements/Sub.tscn" id="17_3vpbx"]
-[ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/Elements/area_2d.tscn" id="18_o353k"]
-[ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="19_tu5if"]
-[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="20_cc3u6"]
-[ext_resource type="Script" uid="uid://ce41r6wl5o0yc" path="res://World/Scripts/load_leves_2.gd" id="21_swp8o"]
-[ext_resource type="PackedScene" uid="uid://g4qy178lttkf" path="res://World/Scenes/Elements/timed_platform_1.tscn" id="22_6p4hl"]
-[ext_resource type="PackedScene" uid="uid://duhe3ktl8tkcn" path="res://World/Scenes/Elements/timed_platform_small.tscn" id="23_imyo4"]
+[ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_wip5j"]
+[ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Elements/Background.tscn" id="2_amvi8"]
+[ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="3_q3ph4"]
+[ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="4_3y3eu"]
+[ext_resource type="Texture2D" uid="uid://cwhdt8r68ivv3" path="res://Assets/Tileset/Sprites/Tilesets/Walls.png" id="5_34d63"]
+[ext_resource type="Texture2D" uid="uid://bwvikvdrng4v8" path="res://Assets/Tileset/Sprites/Tilesets/Bridge.png" id="6_i3tk8"]
+[ext_resource type="Texture2D" uid="uid://d33cuffjrsv7t" path="res://Assets/Tileset/Sprites/Tilesets/Bushes.png" id="7_muss6"]
+[ext_resource type="Texture2D" uid="uid://dr4bdq25jhbba" path="res://Assets/Tileset/Sprites/Tilesets/Construction.png" id="8_2l7ni"]
+[ext_resource type="Texture2D" uid="uid://do6a1bw6uw2ef" path="res://Assets/Tileset/Sprites/Tilesets/ConstructionOverlay.png" id="9_t6q7o"]
+[ext_resource type="Texture2D" uid="uid://wnodq1mio850" path="res://Assets/Tileset/Sprites/Tilesets/Ledges.png" id="10_w50g3"]
+[ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="11_3kx6a"]
+[ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="12_tu60c"]
+[ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="13_cpdu7"]
+[ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="14_b4i2a"]
+[ext_resource type="Script" uid="uid://pbawxhivj8xk" path="res://World/Scripts/gravity.gd" id="15_d3vx1"]
+[ext_resource type="PackedScene" uid="uid://bdmby2ymuda1w" path="res://World/Scenes/Elements/Bus.tscn" id="16_uu07d"]
+[ext_resource type="PackedScene" uid="uid://cw2rdvbqi4n54" path="res://World/Scenes/Elements/Sub.tscn" id="17_h2vb6"]
+[ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/Elements/area_2d.tscn" id="18_yu1gs"]
+[ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="19_iyjtm"]
+[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="20_ae03j"]
+[ext_resource type="Script" uid="uid://ce41r6wl5o0yc" path="res://World/Scripts/load_leves_2.gd" id="21_bkijh"]
+[ext_resource type="PackedScene" uid="uid://g4qy178lttkf" path="res://World/Scenes/Elements/timed_platform_1.tscn" id="22_64l1u"]
+[ext_resource type="PackedScene" uid="uid://duhe3ktl8tkcn" path="res://World/Scenes/Elements/timed_platform_small.tscn" id="23_k2xh6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3ycs7"]
-texture = ExtResource("3_imyo4")
+texture = ExtResource("3_q3ph4")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -75,7 +75,7 @@ texture = ExtResource("3_imyo4")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xgk37"]
-texture = ExtResource("4_802pu")
+texture = ExtResource("4_3y3eu")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -214,7 +214,7 @@ texture = ExtResource("4_802pu")
 15:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f8tmy"]
-texture = ExtResource("5_ngrix")
+texture = ExtResource("5_34d63")
 2:1/0 = 0
 2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 11:1/0 = 0
@@ -541,7 +541,7 @@ texture = ExtResource("5_ngrix")
 20:17/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8qgdh"]
-texture = ExtResource("6_ht7wa")
+texture = ExtResource("6_i3tk8")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -572,7 +572,7 @@ texture = ExtResource("6_ht7wa")
 4:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nql6h"]
-texture = ExtResource("7_b4p42")
+texture = ExtResource("7_muss6")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -622,7 +622,7 @@ texture = ExtResource("7_b4p42")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_78cmh"]
-texture = ExtResource("8_xqhi8")
+texture = ExtResource("8_2l7ni")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -723,7 +723,7 @@ texture = ExtResource("8_xqhi8")
 5:5/0/physics_layer_0/polygon_0/one_way = true
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xxno2"]
-texture = ExtResource("9_0jyk8")
+texture = ExtResource("9_t6q7o")
 1:1/0 = 0
 2:1/0 = 0
 4:1/0 = 0
@@ -779,7 +779,7 @@ texture = ExtResource("9_0jyk8")
 5:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tcdxp"]
-texture = ExtResource("10_rltr8")
+texture = ExtResource("10_w50g3")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -804,7 +804,7 @@ texture = ExtResource("10_rltr8")
 7:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v4wkt"]
-texture = ExtResource("11_6oqwo")
+texture = ExtResource("11_3kx6a")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -933,7 +933,7 @@ texture = ExtResource("11_6oqwo")
 7:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_drrrg"]
-texture = ExtResource("12_iycx7")
+texture = ExtResource("12_tu60c")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -983,7 +983,7 @@ texture = ExtResource("12_iycx7")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r50n1"]
-texture = ExtResource("13_ko8b7")
+texture = ExtResource("13_cpdu7")
 11:0/0 = 0
 12:0/0 = 0
 13:0/0 = 0
@@ -1097,17 +1097,17 @@ sources/9 = SubResource("TileSetAtlasSource_r50n1")
 sources/10 = SubResource("TileSetAtlasSource_f8tmy")
 
 [sub_resource type="Theme" id="Theme_fkrcq"]
-default_font = ExtResource("20_cc3u6")
+default_font = ExtResource("20_ae03j")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qkon5"]
 size = Vector2(16, 48)
 
-[node name="Level_5" type="Node2D"]
+[node name="Lv5" type="Node2D"]
 
-[node name="Pause Menu" parent="." instance=ExtResource("1_3qtys")]
+[node name="Pause Menu" parent="." instance=ExtResource("1_wip5j")]
 visible = false
 
-[node name="Background" parent="." instance=ExtResource("2_6p4hl")]
+[node name="Background" parent="." instance=ExtResource("2_amvi8")]
 position = Vector2(-11, 52)
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -1120,11 +1120,11 @@ layer_0/tile_data = PackedInt32Array(-458488, 131082, 9, -392952, 131082, 10, -3
 layer_1/name = "Layer1"
 layer_1/tile_data = PackedInt32Array(-458488, 851973, 1, -458487, 983045, 1, -458486, 1048581, 1, -65516, 1048581, 1, -1114119, 851973, 1, -1048583, 851973, 2, -983047, 851973, 2, -917511, 851973, 2, -851975, 851973, 2, -786439, 851973, 2, -720903, 851973, 2, -655367, 851973, 2, -589831, 851973, 2, -524295, 851973, 2, -458759, 851973, 2, -393223, 851973, 2, -327687, 851973, 2, -262151, 851973, 2, -196615, 851973, 2, -131079, 851973, 2, -65543, 851973, 2, -1114118, 983045, 1, -1114117, 1048581, 1, -1048581, 1048581, 3, -983045, 1048581, 3, -917509, 1048581, 3, -851973, 1048581, 3, -786437, 1048581, 3, -720901, 1048581, 3, -655365, 1048581, 3, -589829, 1048581, 3, -524293, 1048581, 3, -458757, 1048581, 3, -393221, 1048581, 3, -327685, 1048581, 3, -262149, 1048581, 3, -196613, 1048581, 3, -131077, 1048581, 3, -65541, 1048581, 3, -393148, 851973, 1, -393147, 983045, 1, -393146, 1048581, 1, -393091, 851973, 1, -393090, 983045, 1, -393089, 1048581, 1, -393045, 851973, 1, -393044, 983045, 1, -393043, 1048581, 1, -1179358, 851973, 1, -1113822, 851973, 2, -1048286, 851973, 2, -982750, 851973, 2, -917214, 851973, 2, -851678, 851973, 2, -786142, 851973, 2, -720606, 851973, 2, -655070, 851973, 2, -589534, 851973, 2, -523998, 851973, 2, -458462, 851973, 2, -392926, 851973, 2, -327390, 851973, 2, -1179357, 983045, 1, -1179356, 1048581, 1, -1113820, 1048581, 3, -1048284, 1048581, 3, -982748, 1048581, 3, -917212, 1048581, 3, -851676, 1048581, 3, -786140, 1048581, 3, -720604, 1048581, 3, -655068, 1048581, 3, -589532, 1048581, 3, -523996, 1048581, 3, -458460, 1048581, 3, -392924, 1048581, 3, -327388, 1048581, 3, -261852, 1048581, 3, -196316, 1048581, 3, -130780, 1048581, 3)
 
-[node name="Echo" parent="." groups=["player"] instance=ExtResource("14_st352")]
+[node name="Echo" parent="." groups=["player"] instance=ExtResource("14_b4i2a")]
 position = Vector2(9, -343)
 rotation = 3.14159
 up_direction = Vector2(0, 1)
-script = ExtResource("15_stvvu")
+script = ExtResource("15_d3vx1")
 
 [node name="Camera2D" type="Camera2D" parent="Echo"]
 position = Vector2(-2, 12)
@@ -1136,26 +1136,26 @@ limit_bottom = 0
 limit_smoothed = true
 position_smoothing_enabled = true
 
-[node name="Bus_1" parent="." instance=ExtResource("16_goaf6")]
+[node name="Bus_1" parent="." instance=ExtResource("16_uu07d")]
 position = Vector2(1268, -364)
 rotation = 3.14159
 scale = Vector2(-1, 1)
 
-[node name="Bus_2" parent="." instance=ExtResource("16_goaf6")]
+[node name="Bus_2" parent="." instance=ExtResource("16_uu07d")]
 position = Vector2(2900, -364)
 rotation = -3.14159
 scale = Vector2(-1, 1)
 
-[node name="Sub_1" parent="." instance=ExtResource("17_3vpbx")]
+[node name="Sub_1" parent="." instance=ExtResource("17_h2vb6")]
 position = Vector2(4108, -364)
 rotation = -3.14159
 scale = Vector2(-1, 1)
 
-[node name="Area2D" parent="." instance=ExtResource("18_o353k")]
+[node name="Area2D" parent="." instance=ExtResource("18_yu1gs")]
 position = Vector2(0, -395)
 rotation = 3.14159
 
-[node name="Hud" parent="." instance=ExtResource("19_tu5if")]
+[node name="Hud" parent="." instance=ExtResource("19_iyjtm")]
 
 [node name="Label2" type="Label" parent="Hud"]
 offset_left = 740.0
@@ -1166,20 +1166,20 @@ text = "Level 5 - Anti-Gravity Street"
 metadata/_edit_use_anchors_ = true
 
 [node name="Load_leves2" type="Area2D" parent="."]
-script = ExtResource("21_swp8o")
+script = ExtResource("21_bkijh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Load_leves2"]
 position = Vector2(4664, -40)
 shape = SubResource("RectangleShape2D_qkon5")
 
-[node name="TimedPlatform1" parent="." instance=ExtResource("22_6p4hl")]
+[node name="TimedPlatform1" parent="." instance=ExtResource("22_64l1u")]
 position = Vector2(433, -326)
 scale = Vector2(1, -1)
 
 [node name="Timer" type="Timer" parent="TimedPlatform1"]
 autostart = true
 
-[node name="TimedPlatform2" parent="." instance=ExtResource("22_6p4hl")]
+[node name="TimedPlatform2" parent="." instance=ExtResource("22_64l1u")]
 visible = false
 position = Vector2(610, -245)
 scale = Vector2(1, -1)
@@ -1187,14 +1187,14 @@ scale = Vector2(1, -1)
 [node name="Timer" type="Timer" parent="TimedPlatform2"]
 autostart = true
 
-[node name="TimedPlatform3" parent="." instance=ExtResource("22_6p4hl")]
+[node name="TimedPlatform3" parent="." instance=ExtResource("22_64l1u")]
 position = Vector2(801, -325)
 scale = Vector2(1, -1)
 
 [node name="Timer" type="Timer" parent="TimedPlatform3"]
 autostart = true
 
-[node name="TimedPlatform4" parent="." instance=ExtResource("22_6p4hl")]
+[node name="TimedPlatform4" parent="." instance=ExtResource("22_64l1u")]
 visible = false
 position = Vector2(977, -246)
 scale = Vector2(1, -1)
@@ -1202,14 +1202,14 @@ scale = Vector2(1, -1)
 [node name="Timer" type="Timer" parent="TimedPlatform4"]
 autostart = true
 
-[node name="TimedSmall" parent="." instance=ExtResource("23_imyo4")]
+[node name="TimedSmall" parent="." instance=ExtResource("23_k2xh6")]
 position = Vector2(2065, -241)
 scale = Vector2(1, -1)
 
 [node name="Timer" type="Timer" parent="TimedSmall"]
 autostart = true
 
-[node name="TimedSmall2" parent="." instance=ExtResource("23_imyo4")]
+[node name="TimedSmall2" parent="." instance=ExtResource("23_k2xh6")]
 visible = false
 position = Vector2(2225, -294)
 scale = Vector2(1, -1)
@@ -1217,14 +1217,14 @@ scale = Vector2(1, -1)
 [node name="Timer" type="Timer" parent="TimedSmall2"]
 autostart = true
 
-[node name="TimedSmall3" parent="." instance=ExtResource("23_imyo4")]
+[node name="TimedSmall3" parent="." instance=ExtResource("23_k2xh6")]
 position = Vector2(2385, -230)
 scale = Vector2(1, -1)
 
 [node name="Timer" type="Timer" parent="TimedSmall3"]
 autostart = true
 
-[node name="TimedSmall4" parent="." instance=ExtResource("23_imyo4")]
+[node name="TimedSmall4" parent="." instance=ExtResource("23_k2xh6")]
 visible = false
 position = Vector2(2545, -294)
 scale = Vector2(1, -1)
@@ -1232,7 +1232,7 @@ scale = Vector2(1, -1)
 [node name="Timer" type="Timer" parent="TimedSmall4"]
 autostart = true
 
-[node name="TimedSmall5" parent="." instance=ExtResource("23_imyo4")]
+[node name="TimedSmall5" parent="." instance=ExtResource("23_k2xh6")]
 position = Vector2(2705, -230)
 scale = Vector2(1, -1)
 

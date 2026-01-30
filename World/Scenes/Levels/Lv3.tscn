@@ -1,28 +1,28 @@
 [gd_scene load_steps=36 format=3 uid="uid://ch0eictewxgjv"]
 
-[ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_0kt3t"]
-[ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Elements/Background.tscn" id="2_hcy0y"]
-[ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="3_yby87"]
-[ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="4_qmq4u"]
-[ext_resource type="Texture2D" uid="uid://cwhdt8r68ivv3" path="res://Assets/Tileset/Sprites/Tilesets/Walls.png" id="5_5g2qt"]
-[ext_resource type="Texture2D" uid="uid://bljgh7acpk2xk" path="res://Assets/Tileset/Sprites/Buildings/Buildings.png" id="6_2guru"]
-[ext_resource type="Texture2D" uid="uid://bwvikvdrng4v8" path="res://Assets/Tileset/Sprites/Tilesets/Bridge.png" id="7_vd5s1"]
-[ext_resource type="Texture2D" uid="uid://d33cuffjrsv7t" path="res://Assets/Tileset/Sprites/Tilesets/Bushes.png" id="8_xv2vh"]
-[ext_resource type="Texture2D" uid="uid://dr4bdq25jhbba" path="res://Assets/Tileset/Sprites/Tilesets/Construction.png" id="9_h55ma"]
-[ext_resource type="Texture2D" uid="uid://do6a1bw6uw2ef" path="res://Assets/Tileset/Sprites/Tilesets/ConstructionOverlay.png" id="10_p3ape"]
-[ext_resource type="Texture2D" uid="uid://wnodq1mio850" path="res://Assets/Tileset/Sprites/Tilesets/Ledges.png" id="11_6kho1"]
-[ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="12_544dd"]
-[ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="13_qay80"]
-[ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="14_uj4w1"]
-[ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="15_av4ur"]
-[ext_resource type="Script" uid="uid://cgjgwl705e1vi" path="res://Entity/Scripts/auto run.gd" id="16_5o7e5"]
-[ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/Elements/area_2d.tscn" id="17_4a8ng"]
-[ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="18_c132a"]
-[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="19_pxj2x"]
-[ext_resource type="Script" uid="uid://crk7jmiyyjy5a" path="res://World/Scripts/load_leves_4.gd" id="20_1f2m4"]
+[ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_qtlkw"]
+[ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Elements/Background.tscn" id="2_1t21y"]
+[ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="3_brn1t"]
+[ext_resource type="Texture2D" uid="uid://dvbrpi84pfbto" path="res://Assets/Tileset/Sprites/Tilesets/Bricks.png" id="4_3w6ms"]
+[ext_resource type="Texture2D" uid="uid://cwhdt8r68ivv3" path="res://Assets/Tileset/Sprites/Tilesets/Walls.png" id="5_umcvr"]
+[ext_resource type="Texture2D" uid="uid://bljgh7acpk2xk" path="res://Assets/Tileset/Sprites/Buildings/Buildings.png" id="6_g1vc2"]
+[ext_resource type="Texture2D" uid="uid://bwvikvdrng4v8" path="res://Assets/Tileset/Sprites/Tilesets/Bridge.png" id="7_j6op6"]
+[ext_resource type="Texture2D" uid="uid://d33cuffjrsv7t" path="res://Assets/Tileset/Sprites/Tilesets/Bushes.png" id="8_xass6"]
+[ext_resource type="Texture2D" uid="uid://dr4bdq25jhbba" path="res://Assets/Tileset/Sprites/Tilesets/Construction.png" id="9_wh7xe"]
+[ext_resource type="Texture2D" uid="uid://do6a1bw6uw2ef" path="res://Assets/Tileset/Sprites/Tilesets/ConstructionOverlay.png" id="10_hovho"]
+[ext_resource type="Texture2D" uid="uid://wnodq1mio850" path="res://Assets/Tileset/Sprites/Tilesets/Ledges.png" id="11_8ihp6"]
+[ext_resource type="Texture2D" uid="uid://cji1r3ss5tdyb" path="res://Assets/Tileset/Sprites/Tilesets/Main.png" id="12_rqoyh"]
+[ext_resource type="Texture2D" uid="uid://bagwk6vcfd34k" path="res://Assets/Tileset/Sprites/Tilesets/Pavement.png" id="13_o5ldq"]
+[ext_resource type="Texture2D" uid="uid://dawcpek2s5bws" path="res://Assets/Tileset/Sprites/Tilesets/Stairways.png" id="14_254ov"]
+[ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="15_xcdg1"]
+[ext_resource type="Script" uid="uid://cgjgwl705e1vi" path="res://Entity/Scripts/auto run.gd" id="16_wqg8r"]
+[ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/Elements/area_2d.tscn" id="17_8ogps"]
+[ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="18_f8m1m"]
+[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="19_dhsc2"]
+[ext_resource type="Script" uid="uid://crk7jmiyyjy5a" path="res://World/Scripts/load_leves_4.gd" id="20_n5sp5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w6hnc"]
-texture = ExtResource("3_yby87")
+texture = ExtResource("3_brn1t")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -72,7 +72,7 @@ texture = ExtResource("3_yby87")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vgtgd"]
-texture = ExtResource("4_qmq4u")
+texture = ExtResource("4_3w6ms")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -211,7 +211,7 @@ texture = ExtResource("4_qmq4u")
 15:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_61umb"]
-texture = ExtResource("5_5g2qt")
+texture = ExtResource("5_umcvr")
 2:1/0 = 0
 2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 11:1/0 = 0
@@ -538,7 +538,7 @@ texture = ExtResource("5_5g2qt")
 20:17/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5py3w"]
-texture = ExtResource("6_2guru")
+texture = ExtResource("6_g1vc2")
 15:1/0 = 0
 16:1/0 = 0
 1:2/0 = 0
@@ -1775,7 +1775,7 @@ texture = ExtResource("6_2guru")
 32:48/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_twfjo"]
-texture = ExtResource("7_vd5s1")
+texture = ExtResource("7_j6op6")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 5.00038, -8, 5.03605)
 2:1/0 = 0
@@ -1809,7 +1809,7 @@ texture = ExtResource("7_vd5s1")
 4:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ft88j"]
-texture = ExtResource("8_xv2vh")
+texture = ExtResource("8_xass6")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -1859,7 +1859,7 @@ texture = ExtResource("8_xv2vh")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qx5gn"]
-texture = ExtResource("9_h55ma")
+texture = ExtResource("9_wh7xe")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -1960,7 +1960,7 @@ texture = ExtResource("9_h55ma")
 5:5/0/physics_layer_0/polygon_0/one_way = true
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qm5fd"]
-texture = ExtResource("10_p3ape")
+texture = ExtResource("10_hovho")
 1:1/0 = 0
 2:1/0 = 0
 4:1/0 = 0
@@ -2016,7 +2016,7 @@ texture = ExtResource("10_p3ape")
 5:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e87l8"]
-texture = ExtResource("11_6kho1")
+texture = ExtResource("11_8ihp6")
 1:1/0 = 0
 2:1/0 = 0
 3:1/0 = 0
@@ -2041,7 +2041,7 @@ texture = ExtResource("11_6kho1")
 7:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d55bf"]
-texture = ExtResource("12_544dd")
+texture = ExtResource("12_rqoyh")
 1:1/0 = 0
 1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -2170,7 +2170,7 @@ texture = ExtResource("12_544dd")
 7:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h8ngs"]
-texture = ExtResource("13_qay80")
+texture = ExtResource("13_o5ldq")
 1:1/0 = 0
 3:1/0 = 0
 4:1/0 = 0
@@ -2220,7 +2220,7 @@ texture = ExtResource("13_qay80")
 5:5/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6gfbm"]
-texture = ExtResource("14_uj4w1")
+texture = ExtResource("14_254ov")
 11:0/0 = 0
 12:0/0 = 0
 13:0/0 = 0
@@ -2338,17 +2338,17 @@ sources/10 = SubResource("TileSetAtlasSource_61umb")
 sources/11 = SubResource("TileSetAtlasSource_5py3w")
 
 [sub_resource type="Theme" id="Theme_m0ax1"]
-default_font = ExtResource("19_pxj2x")
+default_font = ExtResource("19_dhsc2")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_twfjo"]
 size = Vector2(24, 154.5)
 
-[node name="Level_3" type="Node2D"]
+[node name="Lv3" type="Node2D"]
 
-[node name="Pause Menu" parent="." instance=ExtResource("1_0kt3t")]
+[node name="Pause Menu" parent="." instance=ExtResource("1_qtlkw")]
 visible = false
 
-[node name="Background" parent="." instance=ExtResource("2_hcy0y")]
+[node name="Background" parent="." instance=ExtResource("2_1t21y")]
 position = Vector2(37, 52)
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -2358,9 +2358,9 @@ layer_0/tile_data = PackedInt32Array(-131044, 65540, 3, -196580, 65540, 2, -2621
 layer_1/name = "Layer1"
 layer_1/tile_data = PackedInt32Array(131064, 524297, 3, 65529, 589833, 2, 131065, 589833, 3, -6, 655369, 1, 65530, 655369, 2, 131066, 655369, 3, -5, 720905, 1, 65531, 720905, 2, 131067, 720905, 3, -4, 786441, 1, 65532, 786441, 2, -3, 851977, 1, 327669, 524297, 3, 262134, 524297, 3, 327670, 589833, 3, 196599, 524297, 3, 262135, 589833, 3, 327671, 655369, 3, 196600, 589833, 3, 262136, 655369, 3, 327672, 720905, 3, 196601, 655369, 3, 262137, 720905, 3, 196602, 720905, 3, -64812, 655369, 268435457, -64813, 720905, 268435457, -64814, 786441, 268435457, -64815, 851977, 268435457, 725, 589833, 268435458, 724, 655369, 268435458, 723, 720905, 268435458, 722, 786441, 268435458, 66262, 524297, 268435459, 66261, 589833, 268435459, 66260, 655369, 268435459, 66259, 720905, 268435459, 131799, 655369, 268435457, 131798, 720905, 268435457, 131797, 786441, 268435457, 131796, 851977, 268435457, 197336, 589833, 268435458, 197335, 655369, 268435458, 197334, 720905, 268435458, 197333, 786441, 268435458)
 
-[node name="Echo" parent="." groups=["player"] instance=ExtResource("15_av4ur")]
+[node name="Echo" parent="." groups=["player"] instance=ExtResource("15_xcdg1")]
 position = Vector2(27, -45)
-script = ExtResource("16_5o7e5")
+script = ExtResource("16_wqg8r")
 
 [node name="Camera2D" type="Camera2D" parent="Echo"]
 position = Vector2(-2, 12)
@@ -2372,10 +2372,10 @@ limit_bottom = 0
 limit_smoothed = true
 position_smoothing_enabled = true
 
-[node name="Area2D" parent="." instance=ExtResource("17_4a8ng")]
+[node name="Area2D" parent="." instance=ExtResource("17_8ogps")]
 position = Vector2(0, 83)
 
-[node name="Hud" parent="." instance=ExtResource("18_c132a")]
+[node name="Hud" parent="." instance=ExtResource("18_f8m1m")]
 
 [node name="Label2" type="Label" parent="Hud"]
 offset_left = 874.0
@@ -2387,7 +2387,7 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Area2D2" type="Area2D" parent="."]
 position = Vector2(11535, -97)
-script = ExtResource("20_1f2m4")
+script = ExtResource("20_n5sp5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
 position = Vector2(11, 3.25)
