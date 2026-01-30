@@ -2822,6 +2822,7 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_dw7u7")
 text = "Skins"
 
 [node name="Skin Selection" type="Node2D" parent="."]
+visible = false
 
 [node name="Back" type="Button" parent="Skin Selection"]
 offset_left = 143.0
@@ -2870,6 +2871,7 @@ autoplay = "default"
 frame_progress = 0.93083
 
 [node name="Level Selection" type="Node2D" parent="."]
+visible = false
 
 [node name="Camera2D" type="Camera2D" parent="Level Selection"]
 position = Vector2(784, 288)
