@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=3 uid="uid://b8pxbljkm1l6r"]
+[gd_scene load_steps=35 format=3 uid="uid://b8pxbljkm1l6r"]
 
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_xppma"]
 [ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="2_gjte3"]
@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://c6ii44eix0ia0" path="res://Entity/Player.tscn" id="13_dj1sv"]
 [ext_resource type="PackedScene" uid="uid://g4qy178lttkf" path="res://World/Scenes/Elements/timed_platform_1.tscn" id="14_n8kxr"]
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="15_3jk6t"]
+[ext_resource type="Script" uid="uid://0tjxvhxlbkto" path="res://World/Scripts/timed.gd" id="15_gjte3"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="16_otrmr"]
 [ext_resource type="Script" uid="uid://cw5snm27lq07j" path="res://World/Scripts/load_leves_3.gd" id="17_i587q"]
 
@@ -1230,7 +1231,7 @@ layer_2/tile_data = PackedInt32Array(-262146, 1048586, 10, -262145, 1114122, 10,
 
 [node name="Echo" parent="." groups=["player"] instance=ExtResource("13_dj1sv")]
 z_index = 5
-position = Vector2(2, -6)
+position = Vector2(-147, -960)
 
 [node name="Camera2D" type="Camera2D" parent="Echo"]
 zoom = Vector2(1.75, 1.75)
@@ -1244,6 +1245,7 @@ limit_bottom = 32
 [node name="TimedPlatform1" parent="Timed" instance=ExtResource("14_n8kxr")]
 visible = false
 position = Vector2(3, -992)
+script = ExtResource("15_gjte3")
 
 [node name="Timer" type="Timer" parent="Timed/TimedPlatform1"]
 autostart = true
@@ -1252,6 +1254,7 @@ autostart = true
 position = Vector2(-156, -1069)
 collision_layer = 0
 collision_mask = 0
+script = ExtResource("15_gjte3")
 
 [node name="Timer" type="Timer" parent="Timed/TimedPlatform2"]
 autostart = true
@@ -1259,6 +1262,7 @@ autostart = true
 [node name="TimedPlatform3" parent="Timed" instance=ExtResource("14_n8kxr")]
 visible = false
 position = Vector2(-303, -1142)
+script = ExtResource("15_gjte3")
 
 [node name="Timer" type="Timer" parent="Timed/TimedPlatform3"]
 autostart = true
@@ -1267,6 +1271,7 @@ autostart = true
 position = Vector2(-103, -1170)
 collision_layer = 0
 collision_mask = 0
+script = ExtResource("15_gjte3")
 
 [node name="Timer" type="Timer" parent="Timed/TimedPlatform4"]
 autostart = true
@@ -1274,6 +1279,7 @@ autostart = true
 [node name="TimedPlatform5" parent="Timed" instance=ExtResource("14_n8kxr")]
 visible = false
 position = Vector2(102, -1172)
+script = ExtResource("15_gjte3")
 
 [node name="Timer" type="Timer" parent="Timed/TimedPlatform5"]
 autostart = true
@@ -1282,6 +1288,7 @@ autostart = true
 position = Vector2(289, -1213)
 collision_layer = 0
 collision_mask = 0
+script = ExtResource("15_gjte3")
 
 [node name="Timer" type="Timer" parent="Timed/TimedPlatform6"]
 autostart = true
@@ -1290,6 +1297,7 @@ autostart = true
 position = Vector2(3, -1348)
 collision_layer = 0
 collision_mask = 0
+script = ExtResource("15_gjte3")
 
 [node name="Timer" type="Timer" parent="Timed/TimedPlatform7"]
 autostart = true
@@ -1297,6 +1305,7 @@ autostart = true
 [node name="TimedPlatform8" parent="Timed" instance=ExtResource("14_n8kxr")]
 visible = false
 position = Vector2(161, -1281)
+script = ExtResource("15_gjte3")
 
 [node name="Timer" type="Timer" parent="Timed/TimedPlatform8"]
 autostart = true
