@@ -24,6 +24,9 @@ Transition="*res://World/Scenes/HUD/transition.tscn"
 
 window/size/viewport_width=1056
 window/size/viewport_height=548
+window/size/mode=4
+window/stretch/mode="canvas_items"
+window/stretch/aspect="ignore"
 
 [dotnet]
 

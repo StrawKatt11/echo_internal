@@ -1231,7 +1231,7 @@ layer_2/tile_data = PackedInt32Array(-262146, 1048586, 10, -262145, 1114122, 10,
 
 [node name="Echo" parent="." groups=["player"] instance=ExtResource("13_dj1sv")]
 z_index = 5
-position = Vector2(-147, -960)
+position = Vector2(-446, -10)
 
 [node name="Camera2D" type="Camera2D" parent="Echo"]
 zoom = Vector2(1.75, 1.75)
