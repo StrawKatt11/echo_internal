@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://c6ncjovisjcdp"]
 
-[ext_resource type="Script" uid="uid://dimqcdkknh5kc" path="res://World/Bence_Folder/Scripts/transition.gd" id="1_dmmqk"]
+[ext_resource type="Script" uid="uid://dimqcdkknh5kc" path="res://World/Scripts/transition.gd" id="1_dmmqk"]
 
 [sub_resource type="Animation" id="Animation_4uiv5"]
 resource_name = "Fade_To_Black"
