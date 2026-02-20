@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=4 uid="uid://bny3272r7d4y"]
+[gd_scene load_steps=38 format=4 uid="uid://bny3272r7d4y"]
 
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_cr3au"]
 [ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="2_b1cyv"]
@@ -18,6 +18,7 @@
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="15_p4qjv"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="16_35cmd"]
 [ext_resource type="PackedScene" uid="uid://bjooru3jowas" path="res://World/Scenes/Elements/timed_platform_2.tscn" id="17_nqj76"]
+[ext_resource type="PackedScene" uid="uid://pc8644c4ckwn" path="res://World/Scenes/HUD/touch_screen.tscn" id="18_j4g2c"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_737ji"]
 texture = ExtResource("2_b1cyv")
@@ -1337,6 +1338,8 @@ offset_bottom = 548.0
 theme = SubResource("Theme_k8e2b")
 text = "Level 4 - Anti-Gravity Skyscraper"
 metadata/_edit_use_anchors_ = true
+
+[node name="TouchScreen" parent="Hud" instance=ExtResource("18_j4g2c")]
 
 [node name="Timed" type="Node2D" parent="."]
 

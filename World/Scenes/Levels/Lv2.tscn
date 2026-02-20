@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=3 uid="uid://b8pxbljkm1l6r"]
+[gd_scene load_steps=36 format=3 uid="uid://b8pxbljkm1l6r"]
 
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_xppma"]
 [ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="2_gjte3"]
@@ -18,6 +18,7 @@
 [ext_resource type="Script" uid="uid://0tjxvhxlbkto" path="res://World/Scripts/timed.gd" id="15_gjte3"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="16_otrmr"]
 [ext_resource type="Script" uid="uid://cw5snm27lq07j" path="res://World/Scripts/load_leves_3.gd" id="17_i587q"]
+[ext_resource type="PackedScene" uid="uid://pc8644c4ckwn" path="res://World/Scenes/HUD/touch_screen.tscn" id="18_er5qc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3y75e"]
 texture = ExtResource("2_gjte3")
@@ -1319,6 +1320,8 @@ offset_bottom = 21.0
 theme = SubResource("Theme_tm7ih")
 text = "Level 2 - Skyscraper"
 metadata/_edit_use_anchors_ = true
+
+[node name="TouchScreen" parent="Hud" instance=ExtResource("18_er5qc")]
 
 [node name="Load_leves3" type="Area2D" parent="."]
 script = ExtResource("17_i587q")

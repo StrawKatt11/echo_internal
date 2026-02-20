@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=3 uid="uid://c77nk2gh7gnbh"]
+[gd_scene load_steps=39 format=3 uid="uid://c77nk2gh7gnbh"]
 
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_wip5j"]
 [ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Elements/Background.tscn" id="2_amvi8"]
@@ -20,6 +20,7 @@
 [ext_resource type="PackedScene" uid="uid://d0jo1rhyduvyo" path="res://World/Scenes/Elements/area_2d.tscn" id="18_yu1gs"]
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="19_iyjtm"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="20_ae03j"]
+[ext_resource type="PackedScene" uid="uid://pc8644c4ckwn" path="res://World/Scenes/HUD/touch_screen.tscn" id="21_amvi8"]
 [ext_resource type="PackedScene" uid="uid://g4qy178lttkf" path="res://World/Scenes/Elements/timed_platform_1.tscn" id="22_64l1u"]
 [ext_resource type="Script" uid="uid://0tjxvhxlbkto" path="res://World/Scripts/timed.gd" id="22_wip5j"]
 [ext_resource type="PackedScene" uid="uid://duhe3ktl8tkcn" path="res://World/Scenes/Elements/timed_platform_small.tscn" id="23_k2xh6"]
@@ -1164,6 +1165,8 @@ offset_bottom = 548.0
 theme = SubResource("Theme_fkrcq")
 text = "Level 5 - Anti-Gravity Street"
 metadata/_edit_use_anchors_ = true
+
+[node name="TouchScreen" parent="Hud" instance=ExtResource("21_amvi8")]
 
 [node name="Load_end" type="Area2D" parent="."]
 position = Vector2(0, -270)

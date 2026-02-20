@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=3 uid="uid://i6cm42kq6hpu"]
+[gd_scene load_steps=36 format=3 uid="uid://i6cm42kq6hpu"]
 
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_wie16"]
 [ext_resource type="PackedScene" uid="uid://c3mdui3e1wijf" path="res://World/Scenes/Elements/Background.tscn" id="2_rjbq3"]
@@ -20,6 +20,7 @@
 [ext_resource type="PackedScene" uid="uid://cikejqxhk1f36" path="res://World/Scenes/HUD/hud.tscn" id="18_0ta33"]
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="19_p7yn7"]
 [ext_resource type="Script" uid="uid://ce41r6wl5o0yc" path="res://World/Scripts/load_leves_2.gd" id="20_2n1cj"]
+[ext_resource type="PackedScene" uid="uid://pc8644c4ckwn" path="res://World/Scenes/HUD/touch_screen.tscn" id="20_rjbq3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qbpbc"]
 texture = ExtResource("3_psfbh")
@@ -1148,6 +1149,8 @@ offset_bottom = 21.0
 theme = SubResource("Theme_fkrcq")
 text = "Level 1 - Street"
 metadata/_edit_use_anchors_ = true
+
+[node name="TouchScreen" parent="Hud" instance=ExtResource("20_rjbq3")]
 
 [node name="Load_leves2" type="Area2D" parent="."]
 script = ExtResource("20_2n1cj")
