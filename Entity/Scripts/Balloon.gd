@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+#region variables
+
 @export var SPEED = 300.0
 var gravity = -100
 
@@ -9,6 +11,10 @@ var gravity = -100
 @onready var animate: AnimationPlayer = $AnimationPlayer
 @onready var layer_1: TileMapLayer = $"../TileMap/Layer1"
 @onready var pos = global_position
+
+#endregion
+
+#region main
 
 func _ready():
 	tree.active = true
@@ -30,6 +36,10 @@ func _physics_process(delta: float):
 	update_facing_direction()
 	skin_change()
 
+#endregion
+
+#region functions
+
 func update_animation():
 	tree.set("parameters/move/blend_position", velocity.x)
 
@@ -47,3 +57,5 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 
 func skin_change():
 	modulate = skin_manager.skins[skin_manager.selected_skin_index-1]
+
+#endregion

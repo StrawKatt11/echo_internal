@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+#region variables
+
 @export var SPEED = 300.0
 const JUMP_VELOCITY = 400.0
 @onready var startposition = global_position
@@ -8,6 +10,10 @@ const JUMP_VELOCITY = 400.0
 @onready var tree: AnimationTree = $AnimationTree
 @onready var sprite: Sprite2D = $Sprite2D
 @onready var animate: AnimationPlayer = $AnimationPlayer
+
+#endregion
+
+#region main
 
 func _ready():
 	tree.active = true
@@ -32,6 +38,10 @@ func _physics_process(delta: float):
 	update_facing_direction()
 	skin_change()
 
+#endregion
+
+#region functions
+
 func update_animation():
 	tree.set("parameters/move/blend_position", velocity.x)
 
@@ -45,3 +55,5 @@ func update_facing_direction():
 
 func skin_change():
 	modulate = skin_manager.skins[skin_manager.selected_skin_index-1]
+
+#endregion
