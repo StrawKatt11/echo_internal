@@ -1,8 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://cikejqxhk1f36"]
+[gd_scene load_steps=3 format=3 uid="uid://cikejqxhk1f36"]
 
-[ext_resource type="PackedScene" uid="uid://cgtc3s18as54p" path="res://World/Scenes/HUD/stopwatch.tscn" id="1_niuxk"]
+[ext_resource type="FontFile" uid="uid://cx0o6s2vw6i08" path="res://Assets/Fonts/Fonts/Digital/TTF/DeadRevolverDigital.ttf" id="1_tndb2"]
+[ext_resource type="Script" uid="uid://dmym0yllhtxby" path="res://World/Scripts/stopwatch.gd" id="2_dhv1m"]
 
 [node name="Hud" type="CanvasLayer"]
 
-[node name="Stopwatch" parent="." instance=ExtResource("1_niuxk")]
-position = Vector2(6, 6)
+[node name="Stopwatch" type="Label" parent="."]
+offset_left = 434.0
+offset_top = 12.0
+offset_right = 579.0
+offset_bottom = 47.0
+theme_override_fonts/font = ExtResource("1_tndb2")
+theme_override_font_sizes/font_size = 36
+script = ExtResource("2_dhv1m")

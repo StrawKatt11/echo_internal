@@ -1,6 +1,5 @@
-[gd_scene load_steps=5 format=3 uid="uid://cgtc3s18as54p"]
+[gd_scene load_steps=4 format=3 uid="uid://cgtc3s18as54p"]
 
-[ext_resource type="Script" uid="uid://dmym0yllhtxby" path="res://Scripts/stopwatch.gd" id="1_tjf2t"]
 [ext_resource type="FontFile" uid="uid://cx0o6s2vw6i08" path="res://Assets/Fonts/Fonts/Digital/TTF/DeadRevolverDigital.ttf" id="2_pp5bs"]
 
 [sub_resource type="Theme" id="Theme_wbpr7"]
@@ -10,7 +9,6 @@ default_font = ExtResource("2_pp5bs")
 font_size = 24
 
 [node name="Stopwatch" type="Node2D"]
-script = ExtResource("1_tjf2t")
 
 [node name="Time" type="Label" parent="."]
 offset_right = 48.0

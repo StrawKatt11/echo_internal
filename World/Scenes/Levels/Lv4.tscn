@@ -1292,6 +1292,7 @@ visible = false
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_thvb5")
 format = 2
+metadata/_edit_lock_ = true
 
 [node name="Layer1" type="TileMapLayer" parent="TileMap"]
 z_index = 1

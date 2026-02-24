@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cysxdfte45vwc"]
+
+[ext_resource type="FontFile" uid="uid://cx0o6s2vw6i08" path="res://Assets/Fonts/Fonts/Digital/TTF/DeadRevolverDigital.ttf" id="1_l27jx"]
+[ext_resource type="Script" uid="uid://jqdppot00yhw" path="res://World/Scripts/Time.gd" id="2_8r4dc"]
+
+[node name="End Scene" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("2_8r4dc")
+
+[node name="Time" type="Label" parent="."]
+layout_mode = 1
+offset_left = 476.0
+offset_top = 244.0
+offset_right = 519.0
+offset_bottom = 296.0
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_l27jx")
+theme_override_font_sizes/font_size = 54
+
+[connection signal="tree_entered" from="." to="." method="_on_tree_entered"]

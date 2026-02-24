@@ -1,9 +1,10 @@
-extends Node2D
+extends Label
 
 var elapsed_time: float = 0.0
+var all_time: float = 0.0
 var running: bool = false
+@onready var stopwatch: Label = $"."
 
-@onready var time_label: Label = $Time
 
 func _ready():
 	start()
@@ -11,7 +12,7 @@ func _ready():
 func _process(delta: float) -> void:
 	if running:
 		elapsed_time += delta
-		time_label.text = format_time(elapsed_time)
+		stopwatch.text = format_time(elapsed_time)
 
 func format_time(seconds: float) -> String:
 	var minutes = int(seconds) / 60
@@ -27,4 +28,4 @@ func stop():
 
 func reset():
 	elapsed_time = 0.0
-	time_label.text = format_time(0.0)
+	stopwatch.text = format_time(0.0)

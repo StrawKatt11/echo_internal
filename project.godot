@@ -21,12 +21,13 @@ config/windows_native_icon="res://rUmZdlC.ico"
 
 Skins="*res://World/Scripts/skins.gd"
 Transition="*res://World/Scenes/HUD/transition.tscn"
+GlobalTime="*res://World/Scripts/Time.gd"
+Stopwatch="*res://World/Scripts/stopwatch.gd"
 
 [display]
 
 window/size/viewport_width=1056
 window/size/viewport_height=548
-window/size/mode=4
 window/stretch/mode="canvas_items"
 window/stretch/aspect="ignore"
 mouse_cursor/custom_image="uid://j44ylw8wvv7c"
