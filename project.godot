@@ -27,6 +27,7 @@ window/size/viewport_height=548
 window/size/mode=4
 window/stretch/mode="canvas_items"
 window/stretch/aspect="ignore"
+mouse_cursor/custom_image="uid://j44ylw8wvv7c"
 
 [dotnet]
 
