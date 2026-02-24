@@ -17,3 +17,7 @@ func pauseMenu():
 		show()
 		Engine.time_scale = 0
 	paused = !paused
+
+
+func _on_pause_pressed() -> void:
+	pauseMenu()

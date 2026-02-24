@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://b8pxbljkm1l6r"]
+[gd_scene load_steps=42 format=3 uid="uid://b8pxbljkm1l6r"]
 
 [ext_resource type="PackedScene" uid="uid://boqtkaekub8il" path="res://World/Scenes/HUD/pause_menu.tscn" id="1_xppma"]
 [ext_resource type="Texture2D" uid="uid://6hhqw8jttqt2" path="res://Assets/Tileset/Sprites/Tilesets/Bitmask.png" id="2_gjte3"]
@@ -19,6 +19,9 @@
 [ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="16_otrmr"]
 [ext_resource type="Script" uid="uid://cw5snm27lq07j" path="res://World/Scripts/load_leves_3.gd" id="17_i587q"]
 [ext_resource type="PackedScene" uid="uid://pc8644c4ckwn" path="res://World/Scenes/HUD/touch_screen.tscn" id="18_er5qc"]
+[ext_resource type="Texture2D" uid="uid://17du1ldgju08" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Highlighted.png" id="19_ifanc"]
+[ext_resource type="Texture2D" uid="uid://clgp0urqqobij" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonB_Pressed.png" id="20_6xvug"]
+[ext_resource type="Texture2D" uid="uid://ckj6phg4gigbe" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonB_Unpressed.png" id="21_55crx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3y75e"]
 texture = ExtResource("2_gjte3")
@@ -1211,6 +1214,15 @@ sources/12 = SubResource("TileSetAtlasSource_vgie3")
 [sub_resource type="Theme" id="Theme_tm7ih"]
 default_font = ExtResource("16_otrmr")
 
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xmqd5"]
+texture = ExtResource("19_ifanc")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ex8x6"]
+texture = ExtResource("20_6xvug")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7d78a"]
+texture = ExtResource("21_55crx")
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8gp1p"]
 size = Vector2(160, 17)
 
@@ -1314,14 +1326,34 @@ autostart = true
 [node name="Hud" parent="." instance=ExtResource("15_3jk6t")]
 
 [node name="Label2" type="Label" parent="Hud"]
-offset_left = 838.0
-offset_right = 1056.0
+offset_right = 218.0
 offset_bottom = 21.0
 theme = SubResource("Theme_tm7ih")
 text = "Level 2 - Skyscraper"
 metadata/_edit_use_anchors_ = true
 
 [node name="TouchScreen" parent="Hud" instance=ExtResource("18_er5qc")]
+
+[node name="Pause" type="Button" parent="Hud"]
+offset_left = 1047.0
+offset_top = 6.0
+offset_right = 1079.0
+offset_bottom = 22.0
+rotation = 1.5708
+scale = Vector2(1.57032, 3.36387)
+theme_override_styles/hover = SubResource("StyleBoxTexture_xmqd5")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ex8x6")
+theme_override_styles/normal = SubResource("StyleBoxTexture_7d78a")
+
+[node name="Label" type="Label" parent="Hud/Pause"]
+layout_mode = 0
+offset_left = 8.91534
+offset_top = -5.05367
+offset_right = 25.9153
+offset_bottom = 22.9463
+theme_override_fonts/font = ExtResource("16_otrmr")
+theme_override_font_sizes/font_size = 23
+text = "="
 
 [node name="Load_leves3" type="Area2D" parent="."]
 script = ExtResource("17_i587q")
@@ -1338,4 +1370,5 @@ shape = SubResource("RectangleShape2D_8gp1p")
 [connection signal="timeout" from="Timed/TimedPlatform6/Timer" to="Timed/TimedPlatform6" method="_on_timer_timeout"]
 [connection signal="timeout" from="Timed/TimedPlatform7/Timer" to="Timed/TimedPlatform7" method="_on_timer_timeout"]
 [connection signal="timeout" from="Timed/TimedPlatform8/Timer" to="Timed/TimedPlatform8" method="_on_timer_timeout"]
+[connection signal="pressed" from="Hud/Pause" to="Pause Menu" method="_on_pause_pressed"]
 [connection signal="body_entered" from="Load_leves3" to="Load_leves3" method="_on_body_entered"]

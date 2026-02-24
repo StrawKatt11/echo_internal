@@ -1,41 +1,56 @@
-[gd_scene load_steps=4 format=3 uid="uid://pc8644c4ckwn"]
+[gd_scene load_steps=6 format=3 uid="uid://pc8644c4ckwn"]
 
 [ext_resource type="Texture2D" uid="uid://j0c2omx0wu0n" path="res://Assets/Pixel UI & HUD/Sprites/Selectors/ChevronRight_Hover.png" id="1_egxne"]
-[ext_resource type="Script" uid="uid://d0ggxgicay06y" path="res://World/Scripts/touch_screen.gd" id="1_rdhup"]
+[ext_resource type="Texture2D" uid="uid://ckj6phg4gigbe" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonB_Unpressed.png" id="3_udtql"]
+[ext_resource type="Texture2D" uid="uid://clgp0urqqobij" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonB_Pressed.png" id="4_k7bsj"]
+[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="5_xrf4f"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rdhup"]
 atlas = ExtResource("1_egxne")
 region = Rect2(6, 1, 6, 7)
 
 [node name="TouchScreen" type="CanvasLayer"]
-script = ExtResource("1_rdhup")
 
 [node name="Right" type="TouchScreenButton" parent="."]
-position = Vector2(266, 440)
-scale = Vector2(8.5, 10.2857)
+modulate = Color(1, 1, 1, 0.215686)
+position = Vector2(301, 434)
+scale = Vector2(15, 15)
 texture_normal = SubResource("AtlasTexture_rdhup")
 action = "right"
 visibility_mode = 1
 
 [node name="Left" type="TouchScreenButton" parent="."]
-position = Vector2(125, 512)
+modulate = Color(1, 1, 1, 0.215686)
+position = Vector2(136, 539)
 rotation = -3.14159
-scale = Vector2(8.5, 10.2857)
+scale = Vector2(15, 15)
 texture_normal = SubResource("AtlasTexture_rdhup")
 action = "left"
 visibility_mode = 1
 
 [node name="Jump" type="TouchScreenButton" parent="."]
-position = Vector2(912, 508)
+modulate = Color(1, 1, 1, 0.215686)
+position = Vector2(898, 529)
 rotation = -1.5708
-scale = Vector2(14.5606, 10.2857)
+scale = Vector2(15, 15)
 texture_normal = SubResource("AtlasTexture_rdhup")
 action = "jump"
 visibility_mode = 1
 
-[connection signal="pressed" from="Right" to="." method="_on_right_pressed"]
-[connection signal="released" from="Right" to="." method="_on_right_released"]
-[connection signal="pressed" from="Left" to="." method="_on_left_pressed"]
-[connection signal="released" from="Left" to="." method="_on_left_released"]
-[connection signal="pressed" from="Jump" to="." method="_on_jump_pressed"]
-[connection signal="released" from="Jump" to="." method="_on_jump_released"]
+[node name="Pause" type="TouchScreenButton" parent="."]
+position = Vector2(1047, 6)
+rotation = 1.5708
+scale = Vector2(1.57032, 3.36387)
+texture_normal = ExtResource("3_udtql")
+texture_pressed = ExtResource("4_k7bsj")
+action = "Esc"
+visibility_mode = 1
+
+[node name="Label" type="Label" parent="Pause"]
+offset_left = 9.05403
+offset_top = -5.43013
+offset_right = 26.054
+offset_bottom = 22.5699
+theme_override_fonts/font = ExtResource("5_xrf4f")
+theme_override_font_sizes/font_size = 23
+text = "="

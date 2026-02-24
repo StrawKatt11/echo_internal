@@ -1,5 +1,7 @@
 extends Control
 
+#region buttons
+
 var playbutton = false
 var lv1button = false
 var lv2button = false
@@ -7,6 +9,11 @@ var lv3button = false
 var lv4button = false
 var lv5button = false
 var quitbutton = false
+
+#endregion
+
+#region variables
+
 @onready var skin_manager = get_node("/root/Skins")
 @onready var transitions: CanvasLayer = $Transition
 @onready var camera_skin: Camera2D = $"Skin Selection/Camera2D"
@@ -19,12 +26,15 @@ var quitbutton = false
 @onready var button_skinright: Button = $"Skin Selection/Right"
 @onready var button_skinleft: Button = $"Skin Selection/Left"
 @onready var button_levelback: Button = $"Level Selection/Back"
-@onready var animsprite: AnimatedSprite2D = $AnimatedSprite2D2
+@onready var animsprite: AnimatedSprite2D = $Echo
 
 @onready var level_selection: Node2D = $"Level Selection"
 @onready var skin_selection: Node2D = $"Skin Selection"
 @onready var main_menu: Node2D = $"Main Menu"
 
+#endregion
+
+#region main
 
 func _ready():
 	skin_selection.visible = false
@@ -35,21 +45,6 @@ func _ready():
 func _process(delta):
 	if playbutton == true or quitbutton == true or lv1button == true or lv2button == true or lv3button == true or lv4button == true or lv5button == true:
 		transitions.transition()
-
-func _on_button_pressed() -> void:
-	playbutton = true
-
-
-func _on_button_2_pressed() -> void:
-	level_selection.visible = true
-	camera_level.enabled = true
-	main_menu.visible = false
-	
-
-
-func _on_button_3_pressed() -> void:
-	quitbutton = true
-
 
 func _on_transition_transitioned() -> void:
 	if playbutton == true:
@@ -66,6 +61,24 @@ func _on_transition_transitioned() -> void:
 		get_tree().change_scene_to_file("res://World/Scenes/Levels/Lv5.tscn")
 	elif quitbutton == true:
 		get_tree().quit()
+
+#endregion
+
+#region buttons
+
+func _on_button_pressed() -> void:
+	playbutton = true
+
+
+func _on_button_2_pressed() -> void:
+	level_selection.visible = true
+	camera_level.enabled = true
+	main_menu.visible = false
+	
+
+
+func _on_button_3_pressed() -> void:
+	quitbutton = true
 
 
 func _on_button_4_pressed() -> void:
@@ -119,3 +132,5 @@ func _on_level_4_pressed() -> void:
 
 func _on_level_5_pressed() -> void:
 	lv5button = true
+
+#endregion

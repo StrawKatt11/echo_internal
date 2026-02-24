@@ -1,6 +1,7 @@
 extends Control
 
 var paused = true
+@onready var pause_menu: CanvasLayer = $".."
 
 func _ready():
 	await get_tree().physics_frame
@@ -10,7 +11,8 @@ func _process(delta: float) -> void:
 
 func _on_resume_pressed() -> void:
 	Engine.time_scale = 1
-
+	pause_menu.hide()
+	pause_menu.paused = false
 
 func _on_restart_pressed() -> void:
 	get_tree().reload_current_scene()
