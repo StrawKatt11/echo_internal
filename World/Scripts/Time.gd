@@ -1,6 +1,6 @@
 extends Control
 
-@onready var time: Label = $Time
+@onready var time: Label = $TheTime
 
 
 func _on_tree_entered() -> void:

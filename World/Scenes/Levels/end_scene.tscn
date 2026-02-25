@@ -8,7 +8,7 @@ layout_mode = 3
 anchors_preset = 0
 script = ExtResource("2_8r4dc")
 
-[node name="Time" type="Label" parent="."]
+[node name="TheTime" type="Label" parent="."]
 layout_mode = 1
 offset_left = 476.0
 offset_top = 244.0

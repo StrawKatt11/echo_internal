@@ -1313,7 +1313,7 @@ tile_set = SubResource("TileSet_thvb5")
 
 [node name="Echo" parent="." groups=["player"] instance=ExtResource("13_4f0lu")]
 z_index = 5
-position = Vector2(-7, 13770)
+position = Vector2(-7, 3237)
 scale = Vector2(1, -1)
 up_direction = Vector2(0, 1)
 script = ExtResource("14_qkiif")
