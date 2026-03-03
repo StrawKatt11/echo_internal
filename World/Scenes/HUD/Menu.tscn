@@ -3009,7 +3009,7 @@ offset_bottom = 546.0
 theme_override_fonts/normal_font = ExtResource("25_gmesc")
 theme_override_font_sizes/normal_font_size = 16
 text = "Build version
-0.9.3"
+1.0.0"
 
 [connection signal="transitioned" from="Transition" to="." method="_on_transition_transitioned"]
 [connection signal="pressed" from="Main Menu/Play" to="." method="_on_button_pressed"]

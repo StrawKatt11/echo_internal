@@ -1130,7 +1130,7 @@ layer_1/tile_data = PackedInt32Array(-458488, 851973, 1, -458487, 983045, 1, -45
 metadata/_edit_lock_ = true
 
 [node name="Echo" parent="." groups=["player"] instance=ExtResource("14_7g78x")]
-position = Vector2(4346, -124)
+position = Vector2(102, -55)
 
 [node name="Camera2D" type="Camera2D" parent="Echo"]
 position = Vector2(-2, 12)

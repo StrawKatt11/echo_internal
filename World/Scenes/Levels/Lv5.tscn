@@ -1137,7 +1137,7 @@ layer_1/tile_data = PackedInt32Array(-458488, 851973, 1, -458487, 983045, 1, -45
 metadata/_edit_lock_ = true
 
 [node name="Echo" parent="." groups=["player"] instance=ExtResource("14_b4i2a")]
-position = Vector2(4352, -260)
+position = Vector2(40, -284)
 rotation = 3.14159
 up_direction = Vector2(0, 1)
 script = ExtResource("15_d3vx1")
