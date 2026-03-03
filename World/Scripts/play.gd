@@ -49,8 +49,10 @@ func _process(delta):
 func _on_transition_transitioned() -> void:
 	if playbutton == true:
 		get_tree().change_scene_to_file("res://World/Scenes/Levels/Lv1.tscn")
+		Stopwatch.times.clear()
 	elif lv1button == true:
 		get_tree().change_scene_to_file("res://World/Scenes/Levels/Lv1.tscn")
+		Stopwatch.times.clear()
 	elif lv2button == true:
 		get_tree().change_scene_to_file("res://World/Scenes/Levels/Lv2.tscn")
 	elif lv3button == true:

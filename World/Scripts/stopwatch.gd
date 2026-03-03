@@ -1,7 +1,7 @@
 extends Label
 
 var elapsed_time: float = 0.0
-var all_time: float = 0.0
+var times = []
 var running: bool = false
 @onready var stopwatch: Label = $"."
 

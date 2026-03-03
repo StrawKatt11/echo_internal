@@ -14,8 +14,9 @@ config/name="Echo Runner"
 config/version="0.8.2"
 run/main_scene="uid://bo7kx0r6ufee1"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="uid://b2pkvrqthvc3q"
+config/icon="uid://v5k8msd20j03"
 config/windows_native_icon="res://rUmZdlC.ico"
+boot_splash/icon="uid://b2pkvrqthvc3q"
 
 [autoload]
 
