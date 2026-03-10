@@ -1,21 +1,187 @@
-[gd_scene load_steps=3 format=3 uid="uid://cysxdfte45vwc"]
+[gd_scene load_steps=16 format=3 uid="uid://cysxdfte45vwc"]
 
 [ext_resource type="FontFile" uid="uid://cx0o6s2vw6i08" path="res://Assets/Fonts/Fonts/Digital/TTF/DeadRevolverDigital.ttf" id="1_l27jx"]
-[ext_resource type="Script" uid="uid://jqdppot00yhw" path="res://World/Scripts/Time.gd" id="2_8r4dc"]
+[ext_resource type="Script" uid="uid://cfi8psxlmgsmq" path="res://World/Scripts/Ender_bender.gd" id="1_sf05i"]
+[ext_resource type="Texture2D" uid="uid://dtxlsof4iqsxh" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_Sky.png" id="2_di0p5"]
+[ext_resource type="Texture2D" uid="uid://cjqxf8h7pk1nl" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsBack.png" id="3_8qxnp"]
+[ext_resource type="Texture2D" uid="uid://dl2rpked1lru7" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsFar.png" id="4_1mey8"]
+[ext_resource type="Texture2D" uid="uid://dg5uf8nige5bo" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsMid.png" id="5_8dji4"]
+[ext_resource type="Texture2D" uid="uid://bwgq8po3dqgv5" path="res://Assets/Tileset/Sprites/Backgrounds/Backgrounds_BuildingsClose.png" id="6_ynjyq"]
+[ext_resource type="Texture2D" uid="uid://bbgfklfnaden" path="res://Assets/Pixel UI & HUD/Sprites/Banners/Black/BannerA.png" id="8_mln2d"]
+[ext_resource type="FontFile" uid="uid://bnqaxtsia65q2" path="res://Assets/Fonts/Fonts/Game/TTF/DeadRevolverGame.ttf" id="9_g47q4"]
+[ext_resource type="Texture2D" uid="uid://17du1ldgju08" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Highlighted.png" id="10_u5wj3"]
+[ext_resource type="Texture2D" uid="uid://bx53hj11ijlmv" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Pressed.png" id="11_xrqju"]
+[ext_resource type="Texture2D" uid="uid://ckrnbahbcdy10" path="res://Assets/Pixel UI & HUD/Sprites/Buttons/Blue/ButtonA_Unpressed.png" id="12_n02ge"]
 
-[node name="End Scene" type="Control"]
-layout_mode = 3
-anchors_preset = 0
-script = ExtResource("2_8r4dc")
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4nb8h"]
+texture = ExtResource("10_u5wj3")
 
-[node name="Time" type="Label" parent="."]
-layout_mode = 1
-offset_left = 476.0
-offset_top = 244.0
-offset_right = 519.0
-offset_bottom = 296.0
-size_flags_horizontal = 4
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7ybn2"]
+texture = ExtResource("11_xrqju")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_sg8g6"]
+texture = ExtResource("12_n02ge")
+
+[node name="End" type="Node2D"]
+position = Vector2(402, 264)
+script = ExtResource("1_sf05i")
+
+[node name="BG" type="Node2D" parent="."]
+position = Vector2(-402, -264)
+
+[node name="BackgroundsSky" type="Sprite2D" parent="BG"]
+position = Vector2(528, 274)
+texture = ExtResource("2_di0p5")
+
+[node name="BackgroundsBuildingsBack" type="Sprite2D" parent="BG"]
+visible = false
+position = Vector2(528, 274)
+texture = ExtResource("3_8qxnp")
+
+[node name="BackgroundsBuildingsFar" type="Sprite2D" parent="BG"]
+position = Vector2(528, 274)
+texture = ExtResource("4_1mey8")
+
+[node name="BackgroundsBuildingsMid" type="Sprite2D" parent="BG"]
+position = Vector2(528, 274)
+texture = ExtResource("5_8dji4")
+
+[node name="BackgroundsBuildingsClose" type="Sprite2D" parent="BG"]
+position = Vector2(528, 274)
+texture = ExtResource("6_ynjyq")
+
+[node name="ShowTime" type="Label" parent="."]
+offset_left = -10.0
+offset_top = -96.0
+offset_right = 151.0
+offset_bottom = -48.0
 theme_override_fonts/font = ExtResource("1_l27jx")
-theme_override_font_sizes/font_size = 54
+theme_override_font_sizes/font_size = 50
+metadata/_edit_use_anchors_ = true
 
-[connection signal="tree_entered" from="." to="." method="_on_tree_entered"]
+[node name="ShowTimeLv1" type="Label" parent="."]
+offset_left = 124.0
+offset_top = -15.0
+offset_right = 164.0
+offset_bottom = 33.0
+theme_override_fonts/font = ExtResource("1_l27jx")
+theme_override_font_sizes/font_size = 33
+metadata/_edit_use_anchors_ = true
+
+[node name="ShowTimeLv2" type="Label" parent="."]
+offset_left = 124.0
+offset_top = 33.0
+offset_right = 164.0
+offset_bottom = 81.0
+theme_override_fonts/font = ExtResource("1_l27jx")
+theme_override_font_sizes/font_size = 33
+metadata/_edit_use_anchors_ = true
+
+[node name="ShowTimeLv3" type="Label" parent="."]
+offset_left = 124.0
+offset_top = 81.0
+offset_right = 164.0
+offset_bottom = 129.0
+theme_override_fonts/font = ExtResource("1_l27jx")
+theme_override_font_sizes/font_size = 33
+metadata/_edit_use_anchors_ = true
+
+[node name="ShowTimeLv4" type="Label" parent="."]
+offset_left = 124.0
+offset_top = 129.0
+offset_right = 164.0
+offset_bottom = 177.0
+theme_override_fonts/font = ExtResource("1_l27jx")
+theme_override_font_sizes/font_size = 33
+metadata/_edit_use_anchors_ = true
+
+[node name="ShowTimeLv5" type="Label" parent="."]
+offset_left = 124.0
+offset_top = 177.0
+offset_right = 164.0
+offset_bottom = 225.0
+theme_override_fonts/font = ExtResource("1_l27jx")
+theme_override_font_sizes/font_size = 33
+metadata/_edit_use_anchors_ = true
+
+[node name="BannerA" type="Sprite2D" parent="."]
+position = Vector2(126, -217)
+scale = Vector2(16.5, 5.2)
+texture = ExtResource("8_mln2d")
+
+[node name="Epic title" type="Label" parent="."]
+offset_left = -266.0
+offset_top = -240.0
+offset_right = 534.0
+offset_bottom = -189.0
+theme_override_fonts/font = ExtResource("9_g47q4")
+theme_override_font_sizes/font_size = 46
+text = "You'Ve Completed the game!"
+
+[node name="Nice title" type="Label" parent="."]
+offset_left = -210.0
+offset_top = -160.0
+offset_right = 421.0
+offset_bottom = -109.0
+theme_override_fonts/font = ExtResource("9_g47q4")
+theme_override_font_sizes/font_size = 35
+text = "The time it took to beat it"
+
+[node name="Lv1" type="Label" parent="."]
+offset_left = -130.0
+offset_top = -8.0
+offset_right = 90.0
+offset_bottom = 20.0
+theme_override_fonts/font = ExtResource("9_g47q4")
+theme_override_font_sizes/font_size = 27
+text = "The streets:"
+
+[node name="Lv2" type="Label" parent="."]
+offset_left = -188.0
+offset_top = 41.0
+offset_right = 92.0
+offset_bottom = 69.0
+theme_override_fonts/font = ExtResource("9_g47q4")
+theme_override_font_sizes/font_size = 27
+text = "The Skyscraper:"
+
+[node name="Lv3" type="Label" parent="."]
+offset_left = -128.0
+offset_top = 87.0
+offset_right = 92.0
+offset_bottom = 115.0
+theme_override_fonts/font = ExtResource("9_g47q4")
+theme_override_font_sizes/font_size = 27
+text = "The rooftop:"
+
+[node name="Lv4" type="Label" parent="."]
+offset_left = -363.0
+offset_top = 132.0
+offset_right = 92.0
+offset_bottom = 160.0
+theme_override_fonts/font = ExtResource("9_g47q4")
+theme_override_font_sizes/font_size = 27
+text = "Anti-gravity skyscraper:"
+
+[node name="Lv5" type="Label" parent="."]
+offset_left = -301.0
+offset_top = 180.0
+offset_right = 94.0
+offset_bottom = 208.0
+theme_override_fonts/font = ExtResource("9_g47q4")
+theme_override_font_sizes/font_size = 27
+text = "Anti-gravity streets:"
+
+[node name="Main menu" type="Button" parent="."]
+offset_left = 294.0
+offset_top = 208.0
+offset_right = 637.0
+offset_bottom = 279.0
+theme_override_fonts/font = ExtResource("9_g47q4")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/hover = SubResource("StyleBoxTexture_4nb8h")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_7ybn2")
+theme_override_styles/normal = SubResource("StyleBoxTexture_sg8g6")
+text = "Back to main menu"
+
+[connection signal="pressed" from="Main menu" to="." method="_on_main_menu_pressed"]

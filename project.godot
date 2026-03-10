@@ -14,8 +14,9 @@ config/name="Echo Runner"
 config/version="0.8.2"
 run/main_scene="uid://bo7kx0r6ufee1"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="uid://b2pkvrqthvc3q"
-config/windows_native_icon="res://rUmZdlC.ico"
+config/icon="uid://cxwamx33lqom1"
+config/windows_native_icon="res://echo.ico"
+boot_splash/icon=""
 
 [autoload]
 
@@ -35,11 +36,6 @@ mouse_cursor/custom_image="uid://j44ylw8wvv7c"
 [dotnet]
 
 project/assembly_name="Prototype"
-
-[editor]
-
-version_control/plugin_name="GitPlugin"
-version_control/autoload_on_startup=true
 
 [file_customization]
 
